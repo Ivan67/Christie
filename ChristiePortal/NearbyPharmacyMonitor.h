@@ -1,11 +1,3 @@
-//
-//  NearbyPharmacyRegionMonitorDelegate.h
-//  ChristiePortal
-//
-//  Created by Sergey on 30/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <CoreLocation/CoreLocation.h>
 #import <Foundation/Foundation.h>
 

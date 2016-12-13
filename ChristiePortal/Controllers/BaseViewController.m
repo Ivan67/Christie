@@ -1,11 +1,3 @@
-//
-//  BaseViewController.m
-//  ChristiePortal
-//
-//  Created by Sergey on 19/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <AFNetworking.h>
 #import "BaseViewController.h"
 #import "NSError+APIClient.h"

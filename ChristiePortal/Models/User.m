@@ -1,11 +1,3 @@
-//
-//  User.m
-//  ChristiePortal
-//
-//  Created by Sergey on 13/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "User.h"
 
 @implementation User

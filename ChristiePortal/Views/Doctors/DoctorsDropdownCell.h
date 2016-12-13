@@ -1,11 +1,3 @@
-//
-//  DoctorSearchCell.h
-//  ChristiePortal
-//
-//  Created by Sergey on 24/09/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "BaseTableViewCell.h"
 
 @interface DoctorsDropdownCell : BaseTableViewCell

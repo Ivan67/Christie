@@ -1,11 +1,3 @@
-//
-//  DistanceFormatter.m
-//  ChristiePortal
-//
-//  Created by Sergey on 10/8/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "DistanceFormatter.h"
 
 @implementation DistanceFormatter

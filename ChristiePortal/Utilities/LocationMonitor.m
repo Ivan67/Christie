@@ -1,11 +1,3 @@
-//
-//  LocationMonitor.m
-//  ChristiePortal
-//
-//  Created by Sergey on 05/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <BlocksKit/BlocksKit.h>
 #import <UIKit/UIKit.h>
 #import "DataManager.h"

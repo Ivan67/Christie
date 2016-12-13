@@ -1,11 +1,3 @@
-//
-//  TuftsSearchViewControllerTests.m
-//  ChristiePortal
-//
-//  Created by Sergey on 24/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <BlocksKit/BlocksKit.h>
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>

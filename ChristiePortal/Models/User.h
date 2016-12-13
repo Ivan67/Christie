@@ -1,11 +1,3 @@
-//
-//  User.h
-//  ChristiePortal
-//
-//  Created by Sergey on 13/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @interface User : NSObject

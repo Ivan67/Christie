@@ -1,11 +1,3 @@
-//
-//  UIColor+Hex.m
-//  ChristiePortal
-//
-//  Created by Sergey on 10/19/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "UIColor+Hex.h"
 
 @implementation UIColor (Hex)

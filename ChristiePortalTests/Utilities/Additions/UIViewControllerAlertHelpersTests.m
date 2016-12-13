@@ -1,10 +1,4 @@
-//
-//  UIViewControllerAlertHelpersTests.m
-//  ChristiePortal
-//
-//  Created by Sergey on 01/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
+
 
 #import <BlocksKit/BlocksKit.h>
 #import <OCMock/OCMock.h>

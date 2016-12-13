@@ -1,11 +1,3 @@
-//
-//  CVSImporter.m
-//  ChristiePortal
-//
-//  Created by Sergey on 10/18/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <DateTools.h>
 #import "CVSDatabaseImporter.h"
 #import "CVSDatabaseReader.h"

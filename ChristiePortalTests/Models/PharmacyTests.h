@@ -1,10 +1,4 @@
-//
-//  PharmacyTests.h
-//  ChristiePortal
-//
-//  Created by Sergey on 27/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
+
 
 #import <XCTest/XCTest.h>
 #import "Pharmacy.h"

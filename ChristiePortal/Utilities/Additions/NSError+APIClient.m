@@ -1,11 +1,3 @@
-//
-//  NSError+API.m
-//  ChristiePortal
-//
-//  Created by Sergey on 10/18/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <AFNetworking.h>
 #import "NSError+APIClient.h"
 #import "NSError+ResponseData.h"

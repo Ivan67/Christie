@@ -1,11 +1,3 @@
-//
-//  APIClient.h
-//  ChristiePortal
-//
-//  Created by Sergey on 13/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <AFNetworking.h>
 #import "NSError+APIClient.h"

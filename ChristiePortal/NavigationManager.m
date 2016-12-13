@@ -1,11 +1,3 @@
-//
-//  NavigationManager.m
-//  ChristiePortal
-//
-//  Created by Sergey on 07/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <objc/runtime.h>
 #import "NavigationManager.h"
 

@@ -1,11 +1,3 @@
-//
-//  PharmacyAnnotation.m
-//  ChristiePortal
-//
-//  Created by Sergey on 04/02/16.
-//  Copyright © 2016 Rhinoda. All rights reserved.
-//
-
 #import "Pharmacy.h"
 #import "PharmacyAnnotation.h"
 

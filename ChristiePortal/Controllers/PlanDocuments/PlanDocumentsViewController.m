@@ -1,11 +1,3 @@
-//
-//  FormsViewController.m
-//  ChristiePortal
-//
-//  Created by Sergey on 21/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "PlanDocumentsViewController.h"
 
 @implementation PlanDocumentsViewController

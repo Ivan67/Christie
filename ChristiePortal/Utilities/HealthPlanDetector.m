@@ -1,11 +1,3 @@
-//
-//  HealthPlanDetector.m
-//  ChristiePortal
-//
-//  Created by Sergey on 12/01/16.
-//  Copyright © 2016 Rhinoda. All rights reserved.
-//
-
 #import "HealthPlanDetector.h"
 #import "Polygon.h"
 

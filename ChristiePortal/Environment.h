@@ -1,11 +1,3 @@
-//
-//  Environment.h
-//  ChristiePortal
-//
-//  Created by Sergey on 23/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @interface Environment : NSObject

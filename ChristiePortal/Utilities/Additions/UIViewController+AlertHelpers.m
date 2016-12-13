@@ -1,11 +1,3 @@
-//
-//  UIViewController+AlertHelpers.m
-//  ChristiePortal
-//
-//  Created by Sergey on 01/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "UIViewController+AlertHelpers.h"
 
 @implementation UIViewController (AlertHelpers)

@@ -1,11 +1,3 @@
-//
-//  AuthenticationManager.m
-//  ChristiePortal
-//
-//  Created by Sergey on 25/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 #import "AuthenticationManager.h"
 

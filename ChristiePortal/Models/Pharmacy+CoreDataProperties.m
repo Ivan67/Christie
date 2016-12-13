@@ -1,14 +1,3 @@
-//
-//  Pharmacy+CoreDataProperties.m
-//  ChristiePortal
-//
-//  Created by Sergey on 21/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-//  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
-//  to delete and recreate this implementation file for your updated model.
-//
-
 #import "Pharmacy+CoreDataProperties.h"
 
 @implementation Pharmacy (CoreDataProperties)

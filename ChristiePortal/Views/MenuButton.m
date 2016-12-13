@@ -1,11 +1,3 @@
-//
-//  MenuButton.m
-//  ChristiePortal
-//
-//  Created by Sergey on 05/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "MenuButton.h"
 
 @implementation MenuButton

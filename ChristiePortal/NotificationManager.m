@@ -1,11 +1,3 @@
-//
-//  NotificationManager.m
-//  ChristiePortal
-//
-//  Created by Sergey on 22/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <AudioToolbox/AudioServices.h>
 #import "DataManager.h"
 #import "NavigationManager.h"

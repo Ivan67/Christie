@@ -1,11 +1,3 @@
-//
-//  PharmacyOpenStatusView.h
-//  ChristiePortal
-//
-//  Created by Sergey on 11/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 IB_DESIGNABLE

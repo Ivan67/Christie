@@ -1,10 +1,3 @@
-//
-//  UIView+LayoutHelpers.m
-//  ChristiePortal
-//
-//  Created by Sergey on 16/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
 
 #import "UIView+LayoutHelpers.h"
 

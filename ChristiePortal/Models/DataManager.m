@@ -1,11 +1,3 @@
-//
-//  CoreDataManager.m
-//  TimeChat
-//
-//  Created by K.Mavlitov on
-//  Copyright (c) K.Mavlitov 2014. All rights reserved.
-//
-
 #import "DataManager.h"
 #import "Pharmacy.h"
 

@@ -1,11 +1,3 @@
-//
-//  NavigationController.m
-//  ChristiePortal
-//
-//  Created by Sergey on 19/01/16.
-//  Copyright © 2016 Rhinoda. All rights reserved.
-//
-
 #import "NavigationController.h"
 #import "UIColor+Hex.h"
 

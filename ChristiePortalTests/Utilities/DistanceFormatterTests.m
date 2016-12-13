@@ -1,10 +1,3 @@
-//
-//  DistanceFormatterTests.m
-//  ChristiePortal
-//
-//  Created by Sergey on 10/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
 
 #import <XCTest/XCTest.h>
 #import "DistanceFormatter.h"

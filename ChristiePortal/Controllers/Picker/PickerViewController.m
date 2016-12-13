@@ -1,11 +1,3 @@
-//
-//  MapsAppPickerViewController.m
-//  ChristiePortal
-//
-//  Created by Sergey on 11/12/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "PickerViewController.h"
 
 static const NSInteger CancelButtonTag = 0;

@@ -1,10 +1,3 @@
-//
-//  Pharmacy.m
-//  ChristiePortal
-//
-//  Created by Sergey on 13/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
 
 #import <DateTools.h>
 #import "DTTimePeriod+ContainsTime.h"

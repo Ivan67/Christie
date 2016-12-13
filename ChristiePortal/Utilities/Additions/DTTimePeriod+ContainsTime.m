@@ -1,11 +1,3 @@
-//
-//  DTTimePeriod+TimeContains.m
-//  ChristiePortal
-//
-//  Created by Sergey on 12/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "DTTimePeriod+ContainsTime.h"
 
 @implementation DTTimePeriod (ContainsTime)

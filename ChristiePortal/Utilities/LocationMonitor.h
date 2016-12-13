@@ -1,11 +1,3 @@
-//
-//  LocationMonitor.h
-//  ChristiePortal
-//
-//  Created by Sergey on 05/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 #import <CoreLocation/CoreLocation.h>

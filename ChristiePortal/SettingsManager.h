@@ -1,11 +1,3 @@
-//
-//  SettingsManager.h
-//  ChristiePortal
-//
-//  Created by Sergey on 24/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 extern NSString *const SettingsImportedCVSDataKey;

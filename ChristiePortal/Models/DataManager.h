@@ -1,11 +1,3 @@
-//
-//  CoreDataManager.h
-//  TimeChat
-//
-//  Created by K.Mavlitov on
-//  Copyright (c) K.Mavlitov 2014. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 #import <CoreLocation/CoreLocation.h>

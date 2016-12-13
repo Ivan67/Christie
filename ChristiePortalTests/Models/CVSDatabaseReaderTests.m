@@ -1,10 +1,3 @@
-//
-//  CVSDatabaseReaderTests.m
-//  ChristiePortal
-//
-//  Created by Sergey on 11/21/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
 
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>

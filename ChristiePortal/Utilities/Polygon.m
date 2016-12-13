@@ -1,11 +1,3 @@
-//
-//  Polygon.m
-//  ChristiePortal
-//
-//  Created by Sergey on 28/10/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "Polygon.h"
 
 @interface Polygon ()

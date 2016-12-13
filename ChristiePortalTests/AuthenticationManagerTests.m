@@ -1,10 +1,3 @@
-//
-//  AuthenticationManagerTests.m
-//  ChristiePortal
-//
-//  Created by Sergey on 26/11/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>

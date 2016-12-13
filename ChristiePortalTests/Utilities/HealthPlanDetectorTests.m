@@ -1,10 +1,3 @@
-//
-//  HealthPlanDetectorTests.m
-//  ChristiePortal
-//
-//  Created by Sergey on 12/01/16.
-//  Copyright © 2016 Rhinoda. All rights reserved.
-//
 
 #import <XCTest/XCTest.h>
 #import "HealthPlanDetector.h"

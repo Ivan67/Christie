@@ -1,11 +1,3 @@
-//
-//  DoctorCell.h
-//  ChristiePortal
-//
-//  Created by Nick Mavlitov on 23/09/15.
-//  Copyright © 2015 Rhinoda. All rights reserved.
-//
-
 #import "BaseTableViewCell.h"
 
 @interface DoctorCell : BaseTableViewCell
