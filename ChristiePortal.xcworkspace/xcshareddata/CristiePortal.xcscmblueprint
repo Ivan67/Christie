@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "33341D80546612402ABBD5C60BA36FCF886F01A9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "33341D80546612402ABBD5C60BA36FCF886F01A9" : 0,
+    "9A09289413A5AF432955C3C978EB9FABC8061244" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C224E650-0A53-4D4C-9B81-7D8DEED66781",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "33341D80546612402ABBD5C60BA36FCF886F01A9" : "christie_portal",
+    "9A09289413A5AF432955C3C978EB9FABC8061244" : "cshprototype"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChristiePortal",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChristiePortal\/ChristiePortal.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mpdenisov\/christie_portal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "33341D80546612402ABBD5C60BA36FCF886F01A9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/CSHPrototype\/cshprototype.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A09289413A5AF432955C3C978EB9FABC8061244"
+    }
+  ]
+}

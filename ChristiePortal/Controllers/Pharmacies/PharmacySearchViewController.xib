@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MyriadProRegular.ttf">
+            <string>MyriadPro-Regular</string>
+            <string>MyriadPro-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PharmacySearchViewController">
+            <connections>
+                <outlet property="backgroundImageView" destination="vzF-No-U1x" id="eLG-Nv-NHi"/>
+                <outlet property="pharmaciesTableView" destination="18b-UQ-ShD" id="5fM-Aj-ltm"/>
+                <outlet property="primaryActivityIndicator" destination="x4A-IM-5g0" id="HNp-AA-8zA"/>
+                <outlet property="searchField" destination="Y0y-A0-rAl" id="3zh-im-t6W"/>
+                <outlet property="searchOptionsActivityIndicator" destination="uF6-Wb-uXk" id="70s-wx-biG"/>
+                <outlet property="searchOptionsBusyOverlayView" destination="tDp-hG-Db1" id="PoI-sb-6go"/>
+                <outlet property="searchOptionsButton" destination="Yf4-rj-y14" id="g0A-XM-hLe"/>
+                <outlet property="searchOptionsTableView" destination="0DW-mn-bOO" id="KZQ-6C-MBh"/>
+                <outlet property="searchOptionsView" destination="Doc-eP-3yF" id="LDw-P9-WuQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.79999999999999982" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_0" id="vzF-No-U1x">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <view opaque="NO" contentMode="scaleToFill" id="Umb-qh-F7Y">
+                    <rect key="frame" x="0.0" y="64" width="320" height="46"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifier" id="Cgv-93-nWv">
+                            <rect key="frame" x="8" y="13" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField clipsSubviews="YES" alpha="0.72999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a city, state or ZIP code" minimumFontSize="17" id="Y0y-A0-rAl">
+                            <rect key="frame" x="38" y="0.0" width="226" height="46"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="23"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="QuT-fH-J8y"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="igW-Qa-UBI">
+                            <rect key="frame" x="272" y="0.0" width="40" height="46"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
+                            <state key="normal" image="find_arrow">
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="startSearch" destination="-1" eventType="touchUpInside" id="5jf-ez-n50"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="j6P-uc-m90">
+                    <rect key="frame" x="8" y="122" width="304" height="434"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <button contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Yf4-rj-y14">
+                            <rect key="frame" x="0.0" y="0.0" width="304" height="33"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="18"/>
+                            <inset key="titleEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="280" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="More options">
+                                <color key="titleColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="toggleSearchOptions" destination="-1" eventType="touchUpInside" id="mup-pe-1cu"/>
+                            </connections>
+                        </button>
+                        <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" style="plain" separatorStyle="none" rowHeight="80" sectionHeaderHeight="1" sectionFooterHeight="1" id="18b-UQ-ShD">
+                            <rect key="frame" x="0.0" y="40" width="304" height="393"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <inset key="contentInset" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="S85-bW-nnf"/>
+                                <outlet property="delegate" destination="-1" id="F0A-aH-wVJ"/>
+                            </connections>
+                        </tableView>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" id="x4A-IM-5g0">
+                            <rect key="frame" x="134" y="198" width="37" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
+                        <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" id="Doc-eP-3yF">
+                            <rect key="frame" x="0.0" y="40" width="304" height="394"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="50" sectionHeaderHeight="1" sectionFooterHeight="1" id="0DW-mn-bOO">
+                                    <rect key="frame" x="0.0" y="0.0" width="304" height="290"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                    <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="X6f-p0-lyI"/>
+                                        <outlet property="delegate" destination="-1" id="RyT-cR-884"/>
+                                    </connections>
+                                </tableView>
+                                <view alpha="0.0" contentMode="scaleToFill" id="tDp-hG-Db1">
+                                    <rect key="frame" x="0.0" y="0.0" width="304" height="290"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
+                                </view>
+                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="uF6-Wb-uXk">
+                                    <rect key="frame" x="142" y="135" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </activityIndicatorView>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.34999999999999998" colorSpace="calibratedRGB"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dropdown_arrow" id="xWv-Lw-mwt">
+                            <rect key="frame" x="280" y="0.0" width="16" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.25490196078431371" green="0.5607843137254902" blue="0.87058823529411766" alpha="0.65000000000000002" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="277" y="370"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background_0" width="1239" height="2207"/>
+        <image name="dropdown_arrow" width="49" height="25"/>
+        <image name="find_arrow" width="20" height="20"/>
+        <image name="magnifier" width="20" height="20"/>
+    </resources>
+</document>

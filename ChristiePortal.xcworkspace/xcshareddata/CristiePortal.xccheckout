@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C224E650-0A53-4D4C-9B81-7D8DEED66781</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChristiePortal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>33341D80546612402ABBD5C60BA36FCF886F01A9</key>
+		<string>github.com:mpdenisov/christie_portal.git</string>
+		<key>9A09289413A5AF432955C3C978EB9FABC8061244</key>
+		<string>https://bitbucket.org/CSHPrototype/cshprototype.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChristiePortal/ChristiePortal.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>33341D80546612402ABBD5C60BA36FCF886F01A9</key>
+		<string>../..</string>
+		<key>9A09289413A5AF432955C3C978EB9FABC8061244</key>
+		<string>../../../cshprototype</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:mpdenisov/christie_portal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>33341D80546612402ABBD5C60BA36FCF886F01A9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>33341D80546612402ABBD5C60BA36FCF886F01A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>christie_portal</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9A09289413A5AF432955C3C978EB9FABC8061244</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cshprototype</string>
+		</dict>
+	</array>
+</dict>
+</plist>

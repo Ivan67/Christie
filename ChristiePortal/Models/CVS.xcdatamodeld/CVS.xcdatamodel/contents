@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 4.3">
+    <entity name="Pharmacy" representedClassName="Pharmacy" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="completed" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastViewed" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="minuteClinicHours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minuteClinicMFHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="minuteClinicMFHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="minuteClinicSatHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="minuteClinicSatHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="minuteClinicSunHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="minuteClinicSunHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="numericCode" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pharmacyHours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pharmacyMFHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pharmacyMFHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pharmacySatHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pharmacySatHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pharmacySunHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pharmacySunHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoHours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoMFHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="photoMFHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="photoSatHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="photoSatHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="photoSunHoursClose" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="photoSunHoursOpen" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="service" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeZone" optional="YES" transient="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Pharmacy" positionX="0" positionY="0" width="128" height="555"/>
+    </elements>
+</model>

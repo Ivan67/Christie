@@ -1,0 +1,1768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05355D25BEE0479497FE0BA0 /* libPods-ChristiePortal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4141CC3C09786C04B1693E /* libPods-ChristiePortal.a */; };
+		20F242C71B9D8CF200A082F5 /* MyriadProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F242B81B9D8CF200A082F5 /* MyriadProBold.ttf */; };
+		20F242C81B9D8CF200A082F5 /* MyriadProBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F242B91B9D8CF200A082F5 /* MyriadProBoldItalic.ttf */; };
+		20F242C91B9D8CF200A082F5 /* MyriadProItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F242BA1B9D8CF200A082F5 /* MyriadProItalic.ttf */; };
+		20F242CA1B9D8CF200A082F5 /* MyriadProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F242BB1B9D8CF200A082F5 /* MyriadProRegular.ttf */; };
+		20F242CB1B9D8CF200A082F5 /* MyriadProSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F242BC1B9D8CF200A082F5 /* MyriadProSemiBold.ttf */; };
+		20F242CC1B9D8CF200A082F5 /* MyriadProSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F242BD1B9D8CF200A082F5 /* MyriadProSemiBoldItalic.ttf */; };
+		47419A1D1BB25E97007AA770 /* DoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47419A1C1BB25E97007AA770 /* DoctorCell.xib */; };
+		596363B91B9EC98D00943936 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596363B81B9EC98D00943936 /* FrontViewController.m */; };
+		596363C11B9ED25900943936 /* MyChristieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596363BF1B9ED25900943936 /* MyChristieViewController.m */; };
+		596363C21B9ED25900943936 /* MyChristieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596363C01B9ED25900943936 /* MyChristieViewController.xib */; };
+		596363DC1B9ED44400943936 /* LegalDocumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596363DA1B9ED44400943936 /* LegalDocumentsViewController.m */; };
+		596363DD1B9ED44400943936 /* LegalDocumentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596363DB1B9ED44400943936 /* LegalDocumentsViewController.xib */; };
+		596363E11B9ED45900943936 /* EuropAssistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596363DF1B9ED45900943936 /* EuropAssistViewController.m */; };
+		596363E21B9ED45900943936 /* EuropAssistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596363E01B9ED45900943936 /* EuropAssistViewController.xib */; };
+		596363E61B9ED46900943936 /* DentalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596363E41B9ED46900943936 /* DentalViewController.m */; };
+		596363E71B9ED46900943936 /* DentalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596363E51B9ED46900943936 /* DentalViewController.xib */; };
+		596363EB1B9ED47B00943936 /* VisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596363E91B9ED47B00943936 /* VisionViewController.m */; };
+		596363EC1B9ED47B00943936 /* VisionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596363EA1B9ED47B00943936 /* VisionViewController.xib */; };
+		596363F01B9ED4A900943936 /* TuftsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596363EE1B9ED4A900943936 /* TuftsSearchViewController.m */; };
+		596363F11B9ED4A900943936 /* TuftsSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596363EF1B9ED4A900943936 /* TuftsSearchViewController.xib */; };
+		596363F51B9ED4C800943936 /* PharmaciesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596363F31B9ED4C800943936 /* PharmaciesViewController.m */; };
+		596363F61B9ED4C800943936 /* PharmaciesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596363F41B9ED4C800943936 /* PharmaciesViewController.xib */; };
+		671FAF999B088CC6956E9613 /* libPods-ChristiePortalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AC2FBF548EF044C0B9A072 /* libPods-ChristiePortalTests.a */; };
+		6D085F071BCAD42400AC55E0 /* .clang-format in Resources */ = {isa = PBXBuildFile; fileRef = 6D085F061BCAD42400AC55E0 /* .clang-format */; };
+		6D12DDE31BFFD53600FC6B3E /* CVSDatabaseReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D12DDE21BFFD53600FC6B3E /* CVSDatabaseReaderTests.m */; };
+		6D3A6EB41BD3879D007C1BD9 /* NSError+ResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A6EB31BD3879D007C1BD9 /* NSError+ResponseData.m */; };
+		6D3A6EB71BD3966E007C1BD9 /* NSError+APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A6EB61BD3966E007C1BD9 /* NSError+APIClient.m */; };
+		6D3A6EBA1BD402B6007C1BD9 /* CVSDatabaseImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A6EB91BD402B6007C1BD9 /* CVSDatabaseImporter.m */; };
+		6D3A6EBE1BD548E3007C1BD9 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A6EBD1BD548E3007C1BD9 /* UIColor+Hex.m */; };
+		6D754D471C187C2200D4F867 /* MenuOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D754D461C187C2200D4F867 /* MenuOverlayView.m */; };
+		6D860B231BFFBBDA008D1583 /* APIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D860B221BFFBBDA008D1583 /* APIClientTests.m */; };
+		6DDCC8921BCFE0E7005BB957 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDCC88E1BCFE0E7005BB957 /* MenuViewController.m */; };
+		6DDCC8931BCFE0E7005BB957 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DDCC88F1BCFE0E7005BB957 /* MenuViewController.xib */; };
+		6DE1B8661BC6DF6E005F3DDD /* DistanceFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1B8651BC6DF6E005F3DDD /* DistanceFormatter.m */; };
+		6DE1B8701BC6E69E005F3DDD /* PharmacyDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1B8681BC6E69E005F3DDD /* PharmacyDetailsViewController.m */; };
+		6DE1B8711BC6E69E005F3DDD /* PharmacyDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DE1B8691BC6E69E005F3DDD /* PharmacyDetailsViewController.xib */; };
+		6DE1B8721BC6E69E005F3DDD /* PharmacySearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1B86B1BC6E69E005F3DDD /* PharmacySearchCell.m */; };
+		6DE1B8731BC6E69E005F3DDD /* PharmacySearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DE1B86C1BC6E69E005F3DDD /* PharmacySearchCell.xib */; };
+		6DE1B8741BC6E69E005F3DDD /* PharmacySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1B86E1BC6E69E005F3DDD /* PharmacySearchViewController.m */; };
+		6DE1B8751BC6E69E005F3DDD /* PharmacySearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DE1B86F1BC6E69E005F3DDD /* PharmacySearchViewController.xib */; };
+		6DE1B8791BC6ED1A005F3DDD /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1B8781BC6ED1A005F3DDD /* DataManager.m */; };
+		841720361B9D6B1B00B63727 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841720351B9D6B1B00B63727 /* main.m */; };
+		841720391B9D6B1B00B63727 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841720381B9D6B1B00B63727 /* AppDelegate.m */; };
+		841720411B9D6B1B00B63727 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841720401B9D6B1B00B63727 /* Images.xcassets */; };
+		A50172B21BDF27D60045F887 /* CVS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A50172B01BDF27D60045F887 /* CVS.xcdatamodeld */; };
+		A50BE8EF1BE095BE00D90B7C /* Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = A50BE8EE1BE095BE00D90B7C /* Polygon.m */; };
+		A518D37A1C4E5CA9001E6BA3 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A518D3791C4E5CA9001E6BA3 /* NavigationController.m */; };
+		A51D15051BFD8F04009B45A8 /* Random.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D15041BFD8F04009B45A8 /* Random.m */; };
+		A51D15071BFD90AC009B45A8 /* FrontViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D15061BFD90AC009B45A8 /* FrontViewControllerTests.m */; };
+		A51D15091BFD9BD0009B45A8 /* SettingsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D15081BFD9BD0009B45A8 /* SettingsViewControllerTests.m */; };
+		A51E8A501C06F5890034140A /* AuthenticationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E8A4F1C06F5890034140A /* AuthenticationManagerTests.m */; };
+		A52E58601BD4ABA300394C34 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52E585F1BD4ABA300394C34 /* BaseViewController.m */; };
+		A52F1CE01BD9FCCC0064263C /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52F1CDE1BD9FCCC0064263C /* LoadingViewController.m */; };
+		A52F1CE11BD9FCCC0064263C /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52F1CDF1BD9FCCC0064263C /* LoadingViewController.xib */; };
+		A53171AE1C05BA4F00AC8859 /* AuthenticationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A53171AD1C05BA4F00AC8859 /* AuthenticationManager.m */; };
+		A53228651C06F92F00237960 /* PharmacySearchViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53228641C06F92F00237960 /* PharmacySearchViewControllerTests.m */; };
+		A53228671C06F94100237960 /* UIColorHexConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53228661C06F94100237960 /* UIColorHexConversionTests.m */; };
+		A53430C81C1FE5BA007E1BE7 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A53430C71C1FE5BA007E1BE7 /* BaseTableViewCell.m */; };
+		A53430CB1C211244007E1BE7 /* UIView+LayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A53430CA1C211244007E1BE7 /* UIView+LayoutHelpers.m */; };
+		A53430CF1C215196007E1BE7 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53430CD1C215196007E1BE7 /* PickerViewController.m */; };
+		A53430D01C215196007E1BE7 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53430CE1C215196007E1BE7 /* PickerViewController.xib */; };
+		A53430D41C216DDB007E1BE7 /* PickerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53430D31C216DDB007E1BE7 /* PickerViewControllerTests.m */; };
+		A536A7101C6344FD00A937AE /* PharmacyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A536A70F1C6344FD00A937AE /* PharmacyAnnotation.m */; };
+		A53B43AD1BFC9D2700ED500C /* WebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A53B43AC1BFC9D2700ED500C /* WebViewControllerTests.m */; };
+		A54075D81C226181008DA0B8 /* OpenStatusBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = A54075D61C226181008DA0B8 /* OpenStatusBadge.m */; };
+		A54075D91C226181008DA0B8 /* OpenStatusBadge.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54075D71C226181008DA0B8 /* OpenStatusBadge.xib */; };
+		A554D9A11C0D76DD0072654D /* UIViewController+AlertHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A554D9A01C0D76DD0072654D /* UIViewController+AlertHelpers.m */; };
+		A554D9A31C0DB37D0072654D /* UIViewControllerAlertHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A554D9A21C0DB37D0072654D /* UIViewControllerAlertHelpersTests.m */; };
+		A555CE851BB4FAB800E86675 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A555CE841BB4FAB800E86675 /* libsqlite3.tbd */; };
+		A555CE871BB54AB700E86675 /* Doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = A555CE861BB54AB700E86675 /* Doxyfile */; };
+		A55BB1EB1BF09D5E00D3A8F0 /* PolygonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BB1EA1BF09D5E00D3A8F0 /* PolygonTests.m */; };
+		A55BB1EF1BF0B04B00D3A8F0 /* OpenHoursParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BB1EE1BF0B04B00D3A8F0 /* OpenHoursParserTests.m */; };
+		A55BB1F51BF1AA7800D3A8F0 /* DistanceFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BB1F41BF1AA7800D3A8F0 /* DistanceFormatterTests.m */; };
+		A55BB1F81BF1E8AC00D3A8F0 /* MenuViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BB1F71BF1E8AC00D3A8F0 /* MenuViewControllerTests.m */; };
+		A55F84681C2A8297002EFAA7 /* Environment.m in Sources */ = {isa = PBXBuildFile; fileRef = A55F84671C2A8297002EFAA7 /* Environment.m */; };
+		A55F846A1C2A86C9002EFAA7 /* EnvironmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55F84691C2A86C9002EFAA7 /* EnvironmentTests.m */; };
+		A562B2EA1BD1165000C268FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A562B2E91BD1165000C268FF /* LaunchScreen.xib */; };
+		A5641BE61BD0C5CE004768A5 /* VerificationCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5641BE51BD0C5CE004768A5 /* VerificationCodeViewController.xib */; };
+		A5641BE81BD0CE50004768A5 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5641BE71BD0CE50004768A5 /* AccountViewController.xib */; };
+		A56C60D11C1EBC7500C12C45 /* DoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A56C60D01C1EBC7500C12C45 /* DoctorTests.m */; };
+		A570FD551C116A3300539BE8 /* SettingsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A570FD541C116A3300539BE8 /* SettingsManagerTests.m */; };
+		A570FD5B1C11AAA100539BE8 /* DentalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A570FD5A1C11AAA100539BE8 /* DentalViewControllerTests.m */; };
+		A570FD5D1C11AD2600539BE8 /* EuropAssistViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A570FD5C1C11AD2600539BE8 /* EuropAssistViewControllerTests.m */; };
+		A570FD5F1C11ADAF00539BE8 /* PlanDocumentsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A570FD5E1C11ADAF00539BE8 /* PlanDocumentsViewControllerTests.m */; };
+		A570FD651C153BB200539BE8 /* NavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A570FD641C153BB200539BE8 /* NavigationManager.m */; };
+		A570FD671C1542DE00539BE8 /* NavigationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A570FD661C1542DE00539BE8 /* NavigationManagerTests.m */; };
+		A57571F11C0C07D900BBD0BC /* NearbyPharmacyMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A57571F01C0C07D900BBD0BC /* NearbyPharmacyMonitor.m */; };
+		A57C8A821C06BADB00B7D24B /* PharmaciesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C8A811C06BADB00B7D24B /* PharmaciesViewControllerTests.m */; };
+		A57C8A841C06C77A00B7D24B /* CignaSearchViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C8A831C06C77A00B7D24B /* CignaSearchViewControllerTests.m */; };
+		A589B1FC1BD0DA0D004983D6 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A589B1FB1BD0DA0D004983D6 /* WelcomeViewController.xib */; };
+		A589B1FE1BD0E0E9004983D6 /* SecurityQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A589B1FD1BD0E0E9004983D6 /* SecurityQuestionViewController.xib */; };
+		A58CD3041BD65382008344EE /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CD3031BD65382008344EE /* Constants.m */; };
+		A58CD3081BD7969A008344EE /* ClaimsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CD3061BD7969A008344EE /* ClaimsViewController.m */; };
+		A58CD3091BD7969A008344EE /* ClaimsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A58CD3071BD7969A008344EE /* ClaimsViewController.xib */; };
+		A58CD30E1BD79EC0008344EE /* PlanDocumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CD30C1BD79EC0008344EE /* PlanDocumentsViewController.m */; };
+		A58CD30F1BD79EC0008344EE /* PlanDocumentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A58CD30D1BD79EC0008344EE /* PlanDocumentsViewController.xib */; };
+		A58CD3121BD7A601008344EE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CD3111BD7A601008344EE /* WebViewController.m */; };
+		A58D0FC11BFC915A0047CE73 /* UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D0FC01BFC915A0047CE73 /* UserTests.m */; };
+		A58D0FC31BFC93480047CE73 /* LoadingViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D0FC21BFC93480047CE73 /* LoadingViewControllerTests.m */; };
+		A59224131C08701A003C865E /* JSONReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A59224121C08701A003C865E /* JSONReader.m */; };
+		A59773441C290CAC00DFB633 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A59773431C290CAC00DFB633 /* NotificationManager.m */; };
+		A59773461C291A3A00DFB633 /* NotificationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A59773451C291A3A00DFB633 /* NotificationManagerTests.m */; };
+		A59C2BD81BF9947F00B9EAB9 /* CVSDatabaseReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A59C2BD71BF9947F00B9EAB9 /* CVSDatabaseReader.m */; };
+		A59C3AF51BF5AE5B000C75E6 /* Pharmacy+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A59C3AF21BF5AE5B000C75E6 /* Pharmacy+CoreDataProperties.m */; };
+		A59C3AF61BF5AE5B000C75E6 /* Pharmacy.m in Sources */ = {isa = PBXBuildFile; fileRef = A59C3AF41BF5AE5B000C75E6 /* Pharmacy.m */; };
+		A59C3AFD1BF5E1DA000C75E6 /* CVSDatabaseImporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A59C3AFC1BF5E1DA000C75E6 /* CVSDatabaseImporterTests.m */; };
+		A5A6C0D71BD0A64A00B07FE8 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C0D61BD0A64A00B07FE8 /* LoginViewController.xib */; };
+		A5B178751BF9D409003932CC /* LoginViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B178741BF9D409003932CC /* LoginViewControllerTests.m */; };
+		A5B178771BFB0F7B003932CC /* BaseViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B178761BFB0F7B003932CC /* BaseViewControllerTests.m */; };
+		A5B5DE6C1BCB6618006AE76A /* OpenHoursParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5DE6B1BCB6618006AE76A /* OpenHoursParser.m */; };
+		A5B5DE6F1BCB799D006AE76A /* DTTimePeriod+ContainsTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5DE6E1BCB799D006AE76A /* DTTimePeriod+ContainsTime.m */; };
+		A5B5DE781BCCB3EA006AE76A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5DE771BCCB3EA006AE76A /* User.m */; };
+		A5B5DE7A1BCCCD20006AE76A /* CVS.sql in Resources */ = {isa = PBXBuildFile; fileRef = A5B5DE791BCCCD20006AE76A /* CVS.sql */; };
+		A5B5DE811BCD1AF3006AE76A /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5DE801BCD1AF3006AE76A /* APIClient.m */; };
+		A5B99D861BFC446300FE65E1 /* WelcomeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B99D851BFC446300FE65E1 /* WelcomeViewControllerTests.m */; };
+		A5BBC77E1C0C44CA0094EC67 /* NearbyPharmacyMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBC77D1C0C44CA0094EC67 /* NearbyPharmacyMonitorTests.m */; };
+		A5D31E121BC2388500ACCB38 /* LocationMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D31E111BC2388500ACCB38 /* LocationMonitor.m */; };
+		A5D604D51BF34F8F00E779F7 /* LocationMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D604D41BF34F8F00E779F7 /* LocationMonitorTests.m */; };
+		A5DC51001C439C8200B675A4 /* TuftsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC50FE1C439C8200B675A4 /* TuftsViewController.m */; };
+		A5DC51011C439C8200B675A4 /* TuftsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5DC50FF1C439C8200B675A4 /* TuftsViewController.xib */; };
+		A5DC51031C439CD600B675A4 /* TuftsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC51021C439CD600B675A4 /* TuftsViewControllerTests.m */; };
+		A5DC51071C43B67700B675A4 /* TuftsDoctorDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC51051C43B67700B675A4 /* TuftsDoctorDetailsViewController.m */; };
+		A5DC51081C43B67700B675A4 /* TuftsDoctorDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5DC51061C43B67700B675A4 /* TuftsDoctorDetailsViewController.xib */; };
+		A5DC510B1C44ACC500B675A4 /* HealthPlanDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC510A1C44ACC500B675A4 /* HealthPlanDetector.m */; };
+		A5DC510D1C44AD7D00B675A4 /* HealthPlanDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC510C1C44AD7D00B675A4 /* HealthPlanDetectorTests.m */; };
+		A5DC88C21BFFD3C600BE34B6 /* NSErrorAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC88C11BFFD3C600BE34B6 /* NSErrorAPIClientTests.m */; };
+		A5DC88C41C02C8B400BE34B6 /* NSErrorResponseDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC88C31C02C8B400BE34B6 /* NSErrorResponseDataTests.m */; };
+		A5E1F69F1BCE84FB008A1773 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E1F69E1BCE84FB008A1773 /* LoginViewController.m */; };
+		A5E749581C0569510022ED86 /* TuftsSearchViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E749571C0569510022ED86 /* TuftsSearchViewControllerTests.m */; };
+		A5EF906F1C07209C00F19C42 /* PharmacyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EF906E1C07209C00F19C42 /* PharmacyTests.m */; };
+		A5EF90711C0826A000F19C42 /* PharmacyTests+OpenHours.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EF90701C0826A000F19C42 /* PharmacyTests+OpenHours.m */; };
+		A5EF90741C082E8300F19C42 /* DataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EF90731C082E8300F19C42 /* DataManagerTests.m */; };
+		A5F05CDF1C0433E3005E417E /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F05CDE1C0433E3005E417E /* SettingsManager.m */; };
+		A5F237BB1BB277B60050376A /* DoctorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F237BA1BB277B60050376A /* DoctorCell.m */; };
+		A5F237BF1BB2C2550050376A /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F237BE1BB2C2550050376A /* Doctor.m */; };
+		A5F237C41BB3B5E80050376A /* DoctorsDropdownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F237C31BB3B5E80050376A /* DoctorsDropdownCell.xib */; };
+		A5F237C71BB3B64A0050376A /* DoctorsDropdownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F237C61BB3B64A0050376A /* DoctorsDropdownCell.m */; };
+		A5F892791BEB33AB0008D37F /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F892781BEB33AB0008D37F /* MenuButton.m */; };
+		B101D99B1B9FF4A90085F755 /* VerificationCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B101D99A1B9FF4A90085F755 /* VerificationCodeViewController.m */; };
+		B101D99E1B9FF4BC0085F755 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B101D99D1B9FF4BC0085F755 /* WelcomeViewController.m */; };
+		B10F75121BFD915800EAED6D /* AccountViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10F75111BFD915800EAED6D /* AccountViewControllerTests.m */; };
+		B10F75141BFD9BA200EAED6D /* SecurityQuestionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10F75131BFD9BA200EAED6D /* SecurityQuestionViewControllerTests.m */; };
+		B10F75161BFDB5E500EAED6D /* VerificationCodeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10F75151BFDB5E500EAED6D /* VerificationCodeViewControllerTests.m */; };
+		B10F751A1BFDD35F00EAED6D /* DTTimePeriodContainsTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10F75191BFDD35F00EAED6D /* DTTimePeriodContainsTimeTests.m */; };
+		B12B24511BB26252004A658D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12B244F1BB26252004A658D /* SettingsViewController.m */; };
+		B12B24521BB26252004A658D /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12B24501BB26252004A658D /* SettingsViewController.xib */; };
+		B16447611BCF7EE300383670 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16447601BCF7EE300383670 /* AccountViewController.m */; };
+		B17F625A1BDF635400BF5AFD /* CignaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17F62581BDF635400BF5AFD /* CignaSearchViewController.m */; };
+		B17F625B1BDF635400BF5AFD /* CignaSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17F62591BDF635400BF5AFD /* CignaSearchViewController.xib */; };
+		B17F62601BE2007B00BF5AFD /* CignaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17F625E1BE2007A00BF5AFD /* CignaViewController.m */; };
+		B17F62611BE2007B00BF5AFD /* CignaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17F625F1BE2007A00BF5AFD /* CignaViewController.xib */; };
+		B17F62651BE331FD00BF5AFD /* CignaSpecialitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17F62631BE331FD00BF5AFD /* CignaSpecialitiesViewController.m */; };
+		B17F62661BE331FD00BF5AFD /* CignaSpecialitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17F62641BE331FD00BF5AFD /* CignaSpecialitiesViewController.xib */; };
+		B17F62791BE3756C00BF5AFD /* DoctorSpeciality.m in Sources */ = {isa = PBXBuildFile; fileRef = B17F62781BE3756C00BF5AFD /* DoctorSpeciality.m */; };
+		B17F627B1BE37CA400BF5AFD /* DoctorSpecialities.json in Resources */ = {isa = PBXBuildFile; fileRef = B17F627A1BE37CA400BF5AFD /* DoctorSpecialities.json */; };
+		B17F62801BE72EB500BF5AFD /* DoctorSpecialityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B17F627E1BE72EB500BF5AFD /* DoctorSpecialityCell.m */; };
+		B17F62811BE72EB500BF5AFD /* DoctorSpecialityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17F627F1BE72EB500BF5AFD /* DoctorSpecialityCell.xib */; };
+		B1B878071BB52B84001E69F4 /* SecurityQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B878061BB52B84001E69F4 /* SecurityQuestionViewController.m */; };
+		B1EB73B91C61E934006F3BF9 /* PharmacySearchOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EB73B71C61E934006F3BF9 /* PharmacySearchOptionCell.m */; };
+		B1EB73BA1C61E934006F3BF9 /* PharmacySearchOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1EB73B81C61E934006F3BF9 /* PharmacySearchOptionCell.xib */; };
+		B1ED5CA51C92BC70005094A9 /* StreetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ED5CA31C92BC70005094A9 /* StreetViewController.m */; };
+		B1ED5CA61C92BC70005094A9 /* StreetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1ED5CA41C92BC70005094A9 /* StreetViewController.xib */; };
+		B1F073EF1C03084900485955 /* PharmacyDetailsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F073EE1C03084900485955 /* PharmacyDetailsViewControllerTests.m */; };
+		B1F073F21C045BDA00485955 /* MyChristieViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F073F11C045BDA00485955 /* MyChristieViewControllerTests.m */; };
+		B1F8304E1C08384400919A10 /* CignaViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F8304D1C08384400919A10 /* CignaViewControllerTests.m */; };
+		B1F830501C085C2A00919A10 /* CignaSpecialitiesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F8304F1C085C2A00919A10 /* CignaSpecialitiesViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8417204A1B9D6B1B00B63727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841720281B9D6B1B00B63727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8417202F1B9D6B1B00B63727;
+			remoteInfo = ChristiePortal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AC2FBF548EF044C0B9A072 /* libPods-ChristiePortalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChristiePortalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		122B1BBD7BE2D4F15E633FD5 /* Pods-ChristiePortal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristiePortal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChristiePortal/Pods-ChristiePortal.debug.xcconfig"; sourceTree = "<group>"; };
+		20F242B81B9D8CF200A082F5 /* MyriadProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProBold.ttf; sourceTree = "<group>"; };
+		20F242B91B9D8CF200A082F5 /* MyriadProBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProBoldItalic.ttf; sourceTree = "<group>"; };
+		20F242BA1B9D8CF200A082F5 /* MyriadProItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProItalic.ttf; sourceTree = "<group>"; };
+		20F242BB1B9D8CF200A082F5 /* MyriadProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProRegular.ttf; sourceTree = "<group>"; };
+		20F242BC1B9D8CF200A082F5 /* MyriadProSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProSemiBold.ttf; sourceTree = "<group>"; };
+		20F242BD1B9D8CF200A082F5 /* MyriadProSemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyriadProSemiBoldItalic.ttf; sourceTree = "<group>"; };
+		44EA9F9EA27EEB4171E87B7B /* Pods-ChristiePortalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristiePortalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChristiePortalTests/Pods-ChristiePortalTests.release.xcconfig"; sourceTree = "<group>"; };
+		47419A1C1BB25E97007AA770 /* DoctorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorCell.xib; sourceTree = "<group>"; };
+		596363B71B9EC98D00943936 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		596363B81B9EC98D00943936 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		596363BE1B9ED25900943936 /* MyChristieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChristieViewController.h; sourceTree = "<group>"; };
+		596363BF1B9ED25900943936 /* MyChristieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChristieViewController.m; sourceTree = "<group>"; };
+		596363C01B9ED25900943936 /* MyChristieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyChristieViewController.xib; sourceTree = "<group>"; };
+		596363D91B9ED44400943936 /* LegalDocumentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegalDocumentsViewController.h; sourceTree = "<group>"; };
+		596363DA1B9ED44400943936 /* LegalDocumentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegalDocumentsViewController.m; sourceTree = "<group>"; };
+		596363DB1B9ED44400943936 /* LegalDocumentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegalDocumentsViewController.xib; sourceTree = "<group>"; };
+		596363DE1B9ED45900943936 /* EuropAssistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuropAssistViewController.h; sourceTree = "<group>"; };
+		596363DF1B9ED45900943936 /* EuropAssistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuropAssistViewController.m; sourceTree = "<group>"; };
+		596363E01B9ED45900943936 /* EuropAssistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EuropAssistViewController.xib; sourceTree = "<group>"; };
+		596363E31B9ED46900943936 /* DentalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DentalViewController.h; sourceTree = "<group>"; };
+		596363E41B9ED46900943936 /* DentalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DentalViewController.m; sourceTree = "<group>"; };
+		596363E51B9ED46900943936 /* DentalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DentalViewController.xib; sourceTree = "<group>"; };
+		596363E81B9ED47B00943936 /* VisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionViewController.h; sourceTree = "<group>"; };
+		596363E91B9ED47B00943936 /* VisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionViewController.m; sourceTree = "<group>"; };
+		596363EA1B9ED47B00943936 /* VisionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisionViewController.xib; sourceTree = "<group>"; };
+		596363ED1B9ED4A900943936 /* TuftsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuftsSearchViewController.h; sourceTree = "<group>"; };
+		596363EE1B9ED4A900943936 /* TuftsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuftsSearchViewController.m; sourceTree = "<group>"; };
+		596363EF1B9ED4A900943936 /* TuftsSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuftsSearchViewController.xib; sourceTree = "<group>"; };
+		596363F21B9ED4C800943936 /* PharmaciesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmaciesViewController.h; sourceTree = "<group>"; };
+		596363F31B9ED4C800943936 /* PharmaciesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmaciesViewController.m; sourceTree = "<group>"; };
+		596363F41B9ED4C800943936 /* PharmaciesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PharmaciesViewController.xib; sourceTree = "<group>"; };
+		59D6C9591BA95FF60001D3A1 /* Ebrima.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ebrima.ttf; sourceTree = "<group>"; };
+		59D6C95A1BA95FF60001D3A1 /* Ebrimabd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ebrimabd.ttf; sourceTree = "<group>"; };
+		64CA504EF7E3EDED446E80E4 /* Pods-ChristiePortalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristiePortalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChristiePortalTests/Pods-ChristiePortalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D085F061BCAD42400AC55E0 /* .clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".clang-format"; sourceTree = "<group>"; };
+		6D12DDE21BFFD53600FC6B3E /* CVSDatabaseReaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVSDatabaseReaderTests.m; sourceTree = "<group>"; };
+		6D3A6EB21BD3879D007C1BD9 /* NSError+ResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+ResponseData.h"; sourceTree = "<group>"; };
+		6D3A6EB31BD3879D007C1BD9 /* NSError+ResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+ResponseData.m"; sourceTree = "<group>"; };
+		6D3A6EB51BD3966E007C1BD9 /* NSError+APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+APIClient.h"; sourceTree = "<group>"; };
+		6D3A6EB61BD3966E007C1BD9 /* NSError+APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+APIClient.m"; sourceTree = "<group>"; };
+		6D3A6EB81BD402B6007C1BD9 /* CVSDatabaseImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVSDatabaseImporter.h; sourceTree = "<group>"; };
+		6D3A6EB91BD402B6007C1BD9 /* CVSDatabaseImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVSDatabaseImporter.m; sourceTree = "<group>"; };
+		6D3A6EBC1BD548E3007C1BD9 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6D3A6EBD1BD548E3007C1BD9 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		6D754D451C187C2200D4F867 /* MenuOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuOverlayView.h; sourceTree = "<group>"; };
+		6D754D461C187C2200D4F867 /* MenuOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuOverlayView.m; sourceTree = "<group>"; };
+		6D860B221BFFBBDA008D1583 /* APIClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClientTests.m; sourceTree = "<group>"; };
+		6DDCC88D1BCFE0E7005BB957 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		6DDCC88E1BCFE0E7005BB957 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		6DDCC88F1BCFE0E7005BB957 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		6DE1B8641BC6DF6E005F3DDD /* DistanceFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceFormatter.h; sourceTree = "<group>"; };
+		6DE1B8651BC6DF6E005F3DDD /* DistanceFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceFormatter.m; sourceTree = "<group>"; };
+		6DE1B8671BC6E69E005F3DDD /* PharmacyDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmacyDetailsViewController.h; sourceTree = "<group>"; };
+		6DE1B8681BC6E69E005F3DDD /* PharmacyDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacyDetailsViewController.m; sourceTree = "<group>"; };
+		6DE1B8691BC6E69E005F3DDD /* PharmacyDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PharmacyDetailsViewController.xib; sourceTree = "<group>"; };
+		6DE1B86A1BC6E69E005F3DDD /* PharmacySearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmacySearchCell.h; sourceTree = "<group>"; };
+		6DE1B86B1BC6E69E005F3DDD /* PharmacySearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacySearchCell.m; sourceTree = "<group>"; };
+		6DE1B86C1BC6E69E005F3DDD /* PharmacySearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PharmacySearchCell.xib; sourceTree = "<group>"; };
+		6DE1B86D1BC6E69E005F3DDD /* PharmacySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmacySearchViewController.h; sourceTree = "<group>"; };
+		6DE1B86E1BC6E69E005F3DDD /* PharmacySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacySearchViewController.m; sourceTree = "<group>"; };
+		6DE1B86F1BC6E69E005F3DDD /* PharmacySearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PharmacySearchViewController.xib; sourceTree = "<group>"; };
+		6DE1B8771BC6ED1A005F3DDD /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		6DE1B8781BC6ED1A005F3DDD /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		841720301B9D6B1B00B63727 /* ChristiePortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristiePortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841720341B9D6B1B00B63727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841720351B9D6B1B00B63727 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841720371B9D6B1B00B63727 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841720381B9D6B1B00B63727 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841720401B9D6B1B00B63727 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		841720491B9D6B1B00B63727 /* ChristiePortal.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristiePortal.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417204E1B9D6B1B00B63727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D950D404DB4B5A061276285 /* Pods-ChristiePortal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristiePortal.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChristiePortal/Pods-ChristiePortal.release.xcconfig"; sourceTree = "<group>"; };
+		91BB53F15A6ACFCC0F682A3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50172B11BDF27D60045F887 /* CVS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CVS.xcdatamodel; sourceTree = "<group>"; };
+		A50BE8ED1BE095BE00D90B7C /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
+		A50BE8EE1BE095BE00D90B7C /* Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polygon.m; sourceTree = "<group>"; };
+		A518D3781C4E5CA9001E6BA3 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		A518D3791C4E5CA9001E6BA3 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		A51D15031BFD8F04009B45A8 /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		A51D15041BFD8F04009B45A8 /* Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Random.m; sourceTree = "<group>"; };
+		A51D15061BFD90AC009B45A8 /* FrontViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewControllerTests.m; sourceTree = "<group>"; };
+		A51D15081BFD9BD0009B45A8 /* SettingsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewControllerTests.m; sourceTree = "<group>"; };
+		A51E8A4F1C06F5890034140A /* AuthenticationManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationManagerTests.m; sourceTree = "<group>"; };
+		A52E585E1BD4ABA300394C34 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A52E585F1BD4ABA300394C34 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A52F1CDD1BD9FCCC0064263C /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		A52F1CDE1BD9FCCC0064263C /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		A52F1CDF1BD9FCCC0064263C /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		A53171AC1C05BA4F00AC8859 /* AuthenticationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationManager.h; sourceTree = "<group>"; };
+		A53171AD1C05BA4F00AC8859 /* AuthenticationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationManager.m; sourceTree = "<group>"; };
+		A53228641C06F92F00237960 /* PharmacySearchViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacySearchViewControllerTests.m; sourceTree = "<group>"; };
+		A53228661C06F94100237960 /* UIColorHexConversionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorHexConversionTests.m; sourceTree = "<group>"; };
+		A53430C61C1FE5BA007E1BE7 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		A53430C71C1FE5BA007E1BE7 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		A53430C91C211244007E1BE7 /* UIView+LayoutHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutHelpers.h"; sourceTree = "<group>"; };
+		A53430CA1C211244007E1BE7 /* UIView+LayoutHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutHelpers.m"; sourceTree = "<group>"; };
+		A53430CC1C215196007E1BE7 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		A53430CD1C215196007E1BE7 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		A53430CE1C215196007E1BE7 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		A53430D31C216DDB007E1BE7 /* PickerViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewControllerTests.m; sourceTree = "<group>"; };
+		A536A70E1C6344FD00A937AE /* PharmacyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmacyAnnotation.h; sourceTree = "<group>"; };
+		A536A70F1C6344FD00A937AE /* PharmacyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacyAnnotation.m; sourceTree = "<group>"; };
+		A53B43AC1BFC9D2700ED500C /* WebViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewControllerTests.m; sourceTree = "<group>"; };
+		A54075D51C226181008DA0B8 /* OpenStatusBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenStatusBadge.h; sourceTree = "<group>"; };
+		A54075D61C226181008DA0B8 /* OpenStatusBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenStatusBadge.m; sourceTree = "<group>"; };
+		A54075D71C226181008DA0B8 /* OpenStatusBadge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenStatusBadge.xib; sourceTree = "<group>"; };
+		A554D99F1C0D76DD0072654D /* UIViewController+AlertHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertHelpers.h"; sourceTree = "<group>"; };
+		A554D9A01C0D76DD0072654D /* UIViewController+AlertHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertHelpers.m"; sourceTree = "<group>"; };
+		A554D9A21C0DB37D0072654D /* UIViewControllerAlertHelpersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerAlertHelpersTests.m; sourceTree = "<group>"; };
+		A555CE841BB4FAB800E86675 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A555CE861BB54AB700E86675 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		A55BB1EA1BF09D5E00D3A8F0 /* PolygonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonTests.m; sourceTree = "<group>"; };
+		A55BB1EE1BF0B04B00D3A8F0 /* OpenHoursParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenHoursParserTests.m; sourceTree = "<group>"; };
+		A55BB1F41BF1AA7800D3A8F0 /* DistanceFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceFormatterTests.m; sourceTree = "<group>"; };
+		A55BB1F71BF1E8AC00D3A8F0 /* MenuViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewControllerTests.m; sourceTree = "<group>"; };
+		A55F84661C2A8297002EFAA7 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
+		A55F84671C2A8297002EFAA7 /* Environment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Environment.m; sourceTree = "<group>"; };
+		A55F84691C2A86C9002EFAA7 /* EnvironmentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentTests.m; sourceTree = "<group>"; };
+		A562B2E91BD1165000C268FF /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		A5641BE51BD0C5CE004768A5 /* VerificationCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationCodeViewController.xib; sourceTree = "<group>"; };
+		A5641BE71BD0CE50004768A5 /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		A56C60D01C1EBC7500C12C45 /* DoctorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorTests.m; sourceTree = "<group>"; };
+		A570FD541C116A3300539BE8 /* SettingsManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManagerTests.m; sourceTree = "<group>"; };
+		A570FD5A1C11AAA100539BE8 /* DentalViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DentalViewControllerTests.m; sourceTree = "<group>"; };
+		A570FD5C1C11AD2600539BE8 /* EuropAssistViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuropAssistViewControllerTests.m; sourceTree = "<group>"; };
+		A570FD5E1C11ADAF00539BE8 /* PlanDocumentsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanDocumentsViewControllerTests.m; sourceTree = "<group>"; };
+		A570FD631C153BB200539BE8 /* NavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationManager.h; sourceTree = "<group>"; };
+		A570FD641C153BB200539BE8 /* NavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationManager.m; sourceTree = "<group>"; };
+		A570FD661C1542DE00539BE8 /* NavigationManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationManagerTests.m; sourceTree = "<group>"; };
+		A57571EF1C0C07D900BBD0BC /* NearbyPharmacyMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyPharmacyMonitor.h; sourceTree = "<group>"; };
+		A57571F01C0C07D900BBD0BC /* NearbyPharmacyMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyPharmacyMonitor.m; sourceTree = "<group>"; };
+		A57C8A811C06BADB00B7D24B /* PharmaciesViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmaciesViewControllerTests.m; sourceTree = "<group>"; };
+		A57C8A831C06C77A00B7D24B /* CignaSearchViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CignaSearchViewControllerTests.m; sourceTree = "<group>"; };
+		A589B1FB1BD0DA0D004983D6 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		A589B1FD1BD0E0E9004983D6 /* SecurityQuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecurityQuestionViewController.xib; sourceTree = "<group>"; };
+		A58CD3021BD65382008344EE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A58CD3031BD65382008344EE /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		A58CD3051BD7969A008344EE /* ClaimsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClaimsViewController.h; sourceTree = "<group>"; };
+		A58CD3061BD7969A008344EE /* ClaimsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClaimsViewController.m; sourceTree = "<group>"; };
+		A58CD3071BD7969A008344EE /* ClaimsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClaimsViewController.xib; sourceTree = "<group>"; };
+		A58CD30B1BD79EC0008344EE /* PlanDocumentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanDocumentsViewController.h; sourceTree = "<group>"; };
+		A58CD30C1BD79EC0008344EE /* PlanDocumentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanDocumentsViewController.m; sourceTree = "<group>"; };
+		A58CD30D1BD79EC0008344EE /* PlanDocumentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanDocumentsViewController.xib; sourceTree = "<group>"; };
+		A58CD3101BD7A601008344EE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		A58CD3111BD7A601008344EE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		A58D0FC01BFC915A0047CE73 /* UserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTests.m; sourceTree = "<group>"; };
+		A58D0FC21BFC93480047CE73 /* LoadingViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewControllerTests.m; sourceTree = "<group>"; };
+		A58D631B1BE0C28600D473C0 /* MA Western Border, Out.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MA Western Border, Out.gpx"; sourceTree = "<group>"; };
+		A58D631C1BE0C2B800D473C0 /* MA Western Border, In.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MA Western Border, In.gpx"; sourceTree = "<group>"; };
+		A58D631D1BE0C64700D473C0 /* New York, NY.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "New York, NY.gpx"; sourceTree = "<group>"; };
+		A59224111C08701A003C865E /* JSONReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONReader.h; sourceTree = "<group>"; };
+		A59224121C08701A003C865E /* JSONReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONReader.m; sourceTree = "<group>"; };
+		A59773421C290CAC00DFB633 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		A59773431C290CAC00DFB633 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
+		A59773451C291A3A00DFB633 /* NotificationManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManagerTests.m; sourceTree = "<group>"; };
+		A59BBF261BE0A5860081F876 /* Boston, MA.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Boston, MA.gpx"; sourceTree = "<group>"; };
+		A59BBF281BE0A7E40081F876 /* Providence, RI.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Providence, RI.gpx"; sourceTree = "<group>"; };
+		A59BBF291BE0A84C0081F876 /* Pittsfield, MA.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Pittsfield, MA.gpx"; sourceTree = "<group>"; };
+		A59C2BD61BF9947F00B9EAB9 /* CVSDatabaseReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVSDatabaseReader.h; sourceTree = "<group>"; };
+		A59C2BD71BF9947F00B9EAB9 /* CVSDatabaseReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVSDatabaseReader.m; sourceTree = "<group>"; };
+		A59C3AF11BF5AE5B000C75E6 /* Pharmacy+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pharmacy+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A59C3AF21BF5AE5B000C75E6 /* Pharmacy+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pharmacy+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A59C3AF31BF5AE5B000C75E6 /* Pharmacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pharmacy.h; sourceTree = "<group>"; };
+		A59C3AF41BF5AE5B000C75E6 /* Pharmacy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pharmacy.m; sourceTree = "<group>"; };
+		A59C3AFC1BF5E1DA000C75E6 /* CVSDatabaseImporterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVSDatabaseImporterTests.m; sourceTree = "<group>"; };
+		A5A6C0D61BD0A64A00B07FE8 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		A5B178741BF9D409003932CC /* LoginViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerTests.m; sourceTree = "<group>"; };
+		A5B178761BFB0F7B003932CC /* BaseViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewControllerTests.m; sourceTree = "<group>"; };
+		A5B5DE6A1BCB6618006AE76A /* OpenHoursParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenHoursParser.h; sourceTree = "<group>"; };
+		A5B5DE6B1BCB6618006AE76A /* OpenHoursParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenHoursParser.m; sourceTree = "<group>"; };
+		A5B5DE6D1BCB799D006AE76A /* DTTimePeriod+ContainsTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DTTimePeriod+ContainsTime.h"; sourceTree = "<group>"; };
+		A5B5DE6E1BCB799D006AE76A /* DTTimePeriod+ContainsTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DTTimePeriod+ContainsTime.m"; sourceTree = "<group>"; };
+		A5B5DE761BCCB3EA006AE76A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A5B5DE771BCCB3EA006AE76A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A5B5DE791BCCCD20006AE76A /* CVS.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CVS.sql; sourceTree = "<group>"; };
+		A5B5DE7F1BCD1AF3006AE76A /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		A5B5DE801BCD1AF3006AE76A /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		A5B99D851BFC446300FE65E1 /* WelcomeViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewControllerTests.m; sourceTree = "<group>"; };
+		A5BBC77D1C0C44CA0094EC67 /* NearbyPharmacyMonitorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyPharmacyMonitorTests.m; sourceTree = "<group>"; };
+		A5D31E101BC2388500ACCB38 /* LocationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMonitor.h; sourceTree = "<group>"; };
+		A5D31E111BC2388500ACCB38 /* LocationMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMonitor.m; sourceTree = "<group>"; };
+		A5D604D41BF34F8F00E779F7 /* LocationMonitorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMonitorTests.m; sourceTree = "<group>"; };
+		A5DC50FD1C439C8200B675A4 /* TuftsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuftsViewController.h; sourceTree = "<group>"; };
+		A5DC50FE1C439C8200B675A4 /* TuftsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuftsViewController.m; sourceTree = "<group>"; };
+		A5DC50FF1C439C8200B675A4 /* TuftsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuftsViewController.xib; sourceTree = "<group>"; };
+		A5DC51021C439CD600B675A4 /* TuftsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuftsViewControllerTests.m; sourceTree = "<group>"; };
+		A5DC51041C43B67700B675A4 /* TuftsDoctorDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuftsDoctorDetailsViewController.h; sourceTree = "<group>"; };
+		A5DC51051C43B67700B675A4 /* TuftsDoctorDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuftsDoctorDetailsViewController.m; sourceTree = "<group>"; };
+		A5DC51061C43B67700B675A4 /* TuftsDoctorDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TuftsDoctorDetailsViewController.xib; sourceTree = "<group>"; };
+		A5DC51091C44ACC500B675A4 /* HealthPlanDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthPlanDetector.h; sourceTree = "<group>"; };
+		A5DC510A1C44ACC500B675A4 /* HealthPlanDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthPlanDetector.m; sourceTree = "<group>"; };
+		A5DC510C1C44AD7D00B675A4 /* HealthPlanDetectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthPlanDetectorTests.m; sourceTree = "<group>"; };
+		A5DC88C11BFFD3C600BE34B6 /* NSErrorAPIClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSErrorAPIClientTests.m; sourceTree = "<group>"; };
+		A5DC88C31C02C8B400BE34B6 /* NSErrorResponseDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSErrorResponseDataTests.m; sourceTree = "<group>"; };
+		A5E1F69D1BCE84FB008A1773 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A5E1F69E1BCE84FB008A1773 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A5E749571C0569510022ED86 /* TuftsSearchViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuftsSearchViewControllerTests.m; sourceTree = "<group>"; };
+		A5EF906E1C07209C00F19C42 /* PharmacyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacyTests.m; sourceTree = "<group>"; };
+		A5EF90701C0826A000F19C42 /* PharmacyTests+OpenHours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PharmacyTests+OpenHours.m"; sourceTree = "<group>"; };
+		A5EF90721C08275D00F19C42 /* PharmacyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PharmacyTests.h; sourceTree = "<group>"; };
+		A5EF90731C082E8300F19C42 /* DataManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManagerTests.m; sourceTree = "<group>"; };
+		A5F05CDD1C0433E3005E417E /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		A5F05CDE1C0433E3005E417E /* SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManager.m; sourceTree = "<group>"; };
+		A5F237B91BB277B60050376A /* DoctorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorCell.h; sourceTree = "<group>"; };
+		A5F237BA1BB277B60050376A /* DoctorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorCell.m; sourceTree = "<group>"; };
+		A5F237BD1BB2C2550050376A /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		A5F237BE1BB2C2550050376A /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		A5F237C31BB3B5E80050376A /* DoctorsDropdownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorsDropdownCell.xib; sourceTree = "<group>"; };
+		A5F237C51BB3B64A0050376A /* DoctorsDropdownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorsDropdownCell.h; sourceTree = "<group>"; };
+		A5F237C61BB3B64A0050376A /* DoctorsDropdownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorsDropdownCell.m; sourceTree = "<group>"; };
+		A5F892771BEB33AB0008D37F /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		A5F892781BEB33AB0008D37F /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		AF4141CC3C09786C04B1693E /* libPods-ChristiePortal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChristiePortal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B101D9991B9FF4A90085F755 /* VerificationCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationCodeViewController.h; sourceTree = "<group>"; };
+		B101D99A1B9FF4A90085F755 /* VerificationCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeViewController.m; sourceTree = "<group>"; };
+		B101D99C1B9FF4BC0085F755 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		B101D99D1B9FF4BC0085F755 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		B10F75111BFD915800EAED6D /* AccountViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewControllerTests.m; sourceTree = "<group>"; };
+		B10F75131BFD9BA200EAED6D /* SecurityQuestionViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityQuestionViewControllerTests.m; sourceTree = "<group>"; };
+		B10F75151BFDB5E500EAED6D /* VerificationCodeViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeViewControllerTests.m; sourceTree = "<group>"; };
+		B10F75191BFDD35F00EAED6D /* DTTimePeriodContainsTimeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodContainsTimeTests.m; sourceTree = "<group>"; };
+		B12B244E1BB26252004A658D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B12B244F1BB26252004A658D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B12B24501BB26252004A658D /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		B164475F1BCF7EE300383670 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		B16447601BCF7EE300383670 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		B17F62571BDF635400BF5AFD /* CignaSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CignaSearchViewController.h; sourceTree = "<group>"; };
+		B17F62581BDF635400BF5AFD /* CignaSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CignaSearchViewController.m; sourceTree = "<group>"; };
+		B17F62591BDF635400BF5AFD /* CignaSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CignaSearchViewController.xib; sourceTree = "<group>"; };
+		B17F625D1BE2007A00BF5AFD /* CignaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CignaViewController.h; sourceTree = "<group>"; };
+		B17F625E1BE2007A00BF5AFD /* CignaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CignaViewController.m; sourceTree = "<group>"; };
+		B17F625F1BE2007A00BF5AFD /* CignaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CignaViewController.xib; sourceTree = "<group>"; };
+		B17F62621BE331FD00BF5AFD /* CignaSpecialitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CignaSpecialitiesViewController.h; sourceTree = "<group>"; };
+		B17F62631BE331FD00BF5AFD /* CignaSpecialitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CignaSpecialitiesViewController.m; sourceTree = "<group>"; };
+		B17F62641BE331FD00BF5AFD /* CignaSpecialitiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CignaSpecialitiesViewController.xib; sourceTree = "<group>"; };
+		B17F62771BE3756C00BF5AFD /* DoctorSpeciality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorSpeciality.h; sourceTree = "<group>"; };
+		B17F62781BE3756C00BF5AFD /* DoctorSpeciality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorSpeciality.m; sourceTree = "<group>"; };
+		B17F627A1BE37CA400BF5AFD /* DoctorSpecialities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DoctorSpecialities.json; sourceTree = "<group>"; };
+		B17F627D1BE72EB500BF5AFD /* DoctorSpecialityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorSpecialityCell.h; sourceTree = "<group>"; };
+		B17F627E1BE72EB500BF5AFD /* DoctorSpecialityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorSpecialityCell.m; sourceTree = "<group>"; };
+		B17F627F1BE72EB500BF5AFD /* DoctorSpecialityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorSpecialityCell.xib; sourceTree = "<group>"; };
+		B1B878051BB52B84001E69F4 /* SecurityQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityQuestionViewController.h; sourceTree = "<group>"; };
+		B1B878061BB52B84001E69F4 /* SecurityQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityQuestionViewController.m; sourceTree = "<group>"; };
+		B1EB73B61C61E934006F3BF9 /* PharmacySearchOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmacySearchOptionCell.h; sourceTree = "<group>"; };
+		B1EB73B71C61E934006F3BF9 /* PharmacySearchOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacySearchOptionCell.m; sourceTree = "<group>"; };
+		B1EB73B81C61E934006F3BF9 /* PharmacySearchOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PharmacySearchOptionCell.xib; sourceTree = "<group>"; };
+		B1ED5CA21C92BC70005094A9 /* StreetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetViewController.h; sourceTree = "<group>"; };
+		B1ED5CA31C92BC70005094A9 /* StreetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetViewController.m; sourceTree = "<group>"; };
+		B1ED5CA41C92BC70005094A9 /* StreetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreetViewController.xib; sourceTree = "<group>"; };
+		B1F073EE1C03084900485955 /* PharmacyDetailsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmacyDetailsViewControllerTests.m; sourceTree = "<group>"; };
+		B1F073F11C045BDA00485955 /* MyChristieViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChristieViewControllerTests.m; sourceTree = "<group>"; };
+		B1F8304D1C08384400919A10 /* CignaViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CignaViewControllerTests.m; sourceTree = "<group>"; };
+		B1F8304F1C085C2A00919A10 /* CignaSpecialitiesViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CignaSpecialitiesViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8417202D1B9D6B1B00B63727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A555CE851BB4FAB800E86675 /* libsqlite3.tbd in Frameworks */,
+				05355D25BEE0479497FE0BA0 /* libPods-ChristiePortal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841720461B9D6B1B00B63727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671FAF999B088CC6956E9613 /* libPods-ChristiePortalTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F242B11B9D8CF200A082F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20F242B71B9D8CF200A082F5 /* Fonts */,
+				A59BBF271BE0A6250081F876 /* Location */,
+				A5B5DE791BCCCD20006AE76A /* CVS.sql */,
+				B17F627A1BE37CA400BF5AFD /* DoctorSpecialities.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20F242B71B9D8CF200A082F5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				59D6C9591BA95FF60001D3A1 /* Ebrima.ttf */,
+				59D6C95A1BA95FF60001D3A1 /* Ebrimabd.ttf */,
+				20F242B81B9D8CF200A082F5 /* MyriadProBold.ttf */,
+				20F242B91B9D8CF200A082F5 /* MyriadProBoldItalic.ttf */,
+				20F242BA1B9D8CF200A082F5 /* MyriadProItalic.ttf */,
+				20F242BB1B9D8CF200A082F5 /* MyriadProRegular.ttf */,
+				20F242BC1B9D8CF200A082F5 /* MyriadProSemiBold.ttf */,
+				20F242BD1B9D8CF200A082F5 /* MyriadProSemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		596363BD1B9ED23200943936 /* MyChristie */ = {
+			isa = PBXGroup;
+			children = (
+				A58CD3051BD7969A008344EE /* ClaimsViewController.h */,
+				A58CD3061BD7969A008344EE /* ClaimsViewController.m */,
+				A58CD3071BD7969A008344EE /* ClaimsViewController.xib */,
+				596363BE1B9ED25900943936 /* MyChristieViewController.h */,
+				596363BF1B9ED25900943936 /* MyChristieViewController.m */,
+				596363C01B9ED25900943936 /* MyChristieViewController.xib */,
+			);
+			path = MyChristie;
+			sourceTree = "<group>";
+		};
+		596363C31B9ED27200943936 /* Pharmacies */ = {
+			isa = PBXGroup;
+			children = (
+				596363F21B9ED4C800943936 /* PharmaciesViewController.h */,
+				596363F31B9ED4C800943936 /* PharmaciesViewController.m */,
+				596363F41B9ED4C800943936 /* PharmaciesViewController.xib */,
+				6DE1B8671BC6E69E005F3DDD /* PharmacyDetailsViewController.h */,
+				6DE1B8681BC6E69E005F3DDD /* PharmacyDetailsViewController.m */,
+				6DE1B8691BC6E69E005F3DDD /* PharmacyDetailsViewController.xib */,
+				6DE1B86D1BC6E69E005F3DDD /* PharmacySearchViewController.h */,
+				6DE1B86E1BC6E69E005F3DDD /* PharmacySearchViewController.m */,
+				6DE1B86F1BC6E69E005F3DDD /* PharmacySearchViewController.xib */,
+				B1ED5CA21C92BC70005094A9 /* StreetViewController.h */,
+				B1ED5CA31C92BC70005094A9 /* StreetViewController.m */,
+				B1ED5CA41C92BC70005094A9 /* StreetViewController.xib */,
+			);
+			path = Pharmacies;
+			sourceTree = "<group>";
+		};
+		596363C41B9ED29100943936 /* Doctors */ = {
+			isa = PBXGroup;
+			children = (
+				B17F62571BDF635400BF5AFD /* CignaSearchViewController.h */,
+				B17F62581BDF635400BF5AFD /* CignaSearchViewController.m */,
+				B17F62591BDF635400BF5AFD /* CignaSearchViewController.xib */,
+				B17F62621BE331FD00BF5AFD /* CignaSpecialitiesViewController.h */,
+				B17F62631BE331FD00BF5AFD /* CignaSpecialitiesViewController.m */,
+				B17F62641BE331FD00BF5AFD /* CignaSpecialitiesViewController.xib */,
+				B17F625D1BE2007A00BF5AFD /* CignaViewController.h */,
+				B17F625E1BE2007A00BF5AFD /* CignaViewController.m */,
+				B17F625F1BE2007A00BF5AFD /* CignaViewController.xib */,
+				A5DC51041C43B67700B675A4 /* TuftsDoctorDetailsViewController.h */,
+				A5DC51051C43B67700B675A4 /* TuftsDoctorDetailsViewController.m */,
+				A5DC51061C43B67700B675A4 /* TuftsDoctorDetailsViewController.xib */,
+				596363ED1B9ED4A900943936 /* TuftsSearchViewController.h */,
+				596363EE1B9ED4A900943936 /* TuftsSearchViewController.m */,
+				596363EF1B9ED4A900943936 /* TuftsSearchViewController.xib */,
+				A5DC50FD1C439C8200B675A4 /* TuftsViewController.h */,
+				A5DC50FE1C439C8200B675A4 /* TuftsViewController.m */,
+				A5DC50FF1C439C8200B675A4 /* TuftsViewController.xib */,
+			);
+			path = Doctors;
+			sourceTree = "<group>";
+		};
+		596363C51B9ED29D00943936 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				596363E81B9ED47B00943936 /* VisionViewController.h */,
+				596363E91B9ED47B00943936 /* VisionViewController.m */,
+				596363EA1B9ED47B00943936 /* VisionViewController.xib */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		596363C61B9ED2AA00943936 /* Dental */ = {
+			isa = PBXGroup;
+			children = (
+				596363E31B9ED46900943936 /* DentalViewController.h */,
+				596363E41B9ED46900943936 /* DentalViewController.m */,
+				596363E51B9ED46900943936 /* DentalViewController.xib */,
+			);
+			path = Dental;
+			sourceTree = "<group>";
+		};
+		596363C71B9ED2B100943936 /* EuropAssist */ = {
+			isa = PBXGroup;
+			children = (
+				596363DE1B9ED45900943936 /* EuropAssistViewController.h */,
+				596363DF1B9ED45900943936 /* EuropAssistViewController.m */,
+				596363E01B9ED45900943936 /* EuropAssistViewController.xib */,
+			);
+			path = EuropAssist;
+			sourceTree = "<group>";
+		};
+		596363C81B9ED2C300943936 /* LegalDocuments */ = {
+			isa = PBXGroup;
+			children = (
+				596363D91B9ED44400943936 /* LegalDocumentsViewController.h */,
+				596363DA1B9ED44400943936 /* LegalDocumentsViewController.m */,
+				596363DB1B9ED44400943936 /* LegalDocumentsViewController.xib */,
+			);
+			path = LegalDocuments;
+			sourceTree = "<group>";
+		};
+		596363C91B9ED2CE00943936 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B12B244E1BB26252004A658D /* SettingsViewController.h */,
+				B12B244F1BB26252004A658D /* SettingsViewController.m */,
+				B12B24501BB26252004A658D /* SettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6D8DA6851BD275BD00111BEA /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B164475F1BCF7EE300383670 /* AccountViewController.h */,
+				B16447601BCF7EE300383670 /* AccountViewController.m */,
+				A5641BE71BD0CE50004768A5 /* AccountViewController.xib */,
+				B1B878051BB52B84001E69F4 /* SecurityQuestionViewController.h */,
+				B1B878061BB52B84001E69F4 /* SecurityQuestionViewController.m */,
+				A589B1FD1BD0E0E9004983D6 /* SecurityQuestionViewController.xib */,
+				B101D9991B9FF4A90085F755 /* VerificationCodeViewController.h */,
+				B101D99A1B9FF4A90085F755 /* VerificationCodeViewController.m */,
+				A5641BE51BD0C5CE004768A5 /* VerificationCodeViewController.xib */,
+				B101D99C1B9FF4BC0085F755 /* WelcomeViewController.h */,
+				B101D99D1B9FF4BC0085F755 /* WelcomeViewController.m */,
+				A589B1FB1BD0DA0D004983D6 /* WelcomeViewController.xib */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		6D8DA68A1BD27C3D00111BEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				596363C61B9ED2AA00943936 /* Dental */,
+				596363C41B9ED29100943936 /* Doctors */,
+				596363C71B9ED2B100943936 /* EuropAssist */,
+				596363C81B9ED2C300943936 /* LegalDocuments */,
+				A52F1CD91BD9FC540064263C /* Loading */,
+				B101D9981B9FF45C0085F755 /* Login */,
+				6D9004321BD281A100E54BCA /* Menu */,
+				596363BD1B9ED23200943936 /* MyChristie */,
+				596363C31B9ED27200943936 /* Pharmacies */,
+				A53430D11C216045007E1BE7 /* Picker */,
+				A58CD30A1BD79E43008344EE /* PlanDocuments */,
+				6D8DA6851BD275BD00111BEA /* Registration */,
+				596363C91B9ED2CE00943936 /* Settings */,
+				596363C51B9ED29D00943936 /* Vision */,
+				A52E585E1BD4ABA300394C34 /* BaseViewController.h */,
+				A52E585F1BD4ABA300394C34 /* BaseViewController.m */,
+				596363B71B9EC98D00943936 /* FrontViewController.h */,
+				596363B81B9EC98D00943936 /* FrontViewController.m */,
+				A518D3781C4E5CA9001E6BA3 /* NavigationController.h */,
+				A518D3791C4E5CA9001E6BA3 /* NavigationController.m */,
+				A58CD3101BD7A601008344EE /* WebViewController.h */,
+				A58CD3111BD7A601008344EE /* WebViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D8DA68B1BD27DB800111BEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D8DA68D1BD27DE700111BEA /* Doctors */,
+				6D8DA68C1BD27DD200111BEA /* Pharmacies */,
+				A53430C61C1FE5BA007E1BE7 /* BaseTableViewCell.h */,
+				A53430C71C1FE5BA007E1BE7 /* BaseTableViewCell.m */,
+				A5F892771BEB33AB0008D37F /* MenuButton.h */,
+				A5F892781BEB33AB0008D37F /* MenuButton.m */,
+				6D754D451C187C2200D4F867 /* MenuOverlayView.h */,
+				6D754D461C187C2200D4F867 /* MenuOverlayView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D8DA68C1BD27DD200111BEA /* Pharmacies */ = {
+			isa = PBXGroup;
+			children = (
+				A54075D51C226181008DA0B8 /* OpenStatusBadge.h */,
+				A54075D61C226181008DA0B8 /* OpenStatusBadge.m */,
+				A54075D71C226181008DA0B8 /* OpenStatusBadge.xib */,
+				6DE1B86A1BC6E69E005F3DDD /* PharmacySearchCell.h */,
+				6DE1B86B1BC6E69E005F3DDD /* PharmacySearchCell.m */,
+				6DE1B86C1BC6E69E005F3DDD /* PharmacySearchCell.xib */,
+				B1EB73B61C61E934006F3BF9 /* PharmacySearchOptionCell.h */,
+				B1EB73B71C61E934006F3BF9 /* PharmacySearchOptionCell.m */,
+				B1EB73B81C61E934006F3BF9 /* PharmacySearchOptionCell.xib */,
+			);
+			path = Pharmacies;
+			sourceTree = "<group>";
+		};
+		6D8DA68D1BD27DE700111BEA /* Doctors */ = {
+			isa = PBXGroup;
+			children = (
+				A5F237B91BB277B60050376A /* DoctorCell.h */,
+				A5F237BA1BB277B60050376A /* DoctorCell.m */,
+				47419A1C1BB25E97007AA770 /* DoctorCell.xib */,
+				B17F627D1BE72EB500BF5AFD /* DoctorSpecialityCell.h */,
+				B17F627E1BE72EB500BF5AFD /* DoctorSpecialityCell.m */,
+				B17F627F1BE72EB500BF5AFD /* DoctorSpecialityCell.xib */,
+				A5F237C51BB3B64A0050376A /* DoctorsDropdownCell.h */,
+				A5F237C61BB3B64A0050376A /* DoctorsDropdownCell.m */,
+				A5F237C31BB3B5E80050376A /* DoctorsDropdownCell.xib */,
+			);
+			path = Doctors;
+			sourceTree = "<group>";
+		};
+		6D9004321BD281A100E54BCA /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6DDCC88D1BCFE0E7005BB957 /* MenuViewController.h */,
+				6DDCC88E1BCFE0E7005BB957 /* MenuViewController.m */,
+				6DDCC88F1BCFE0E7005BB957 /* MenuViewController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		6DE1B8761BC6ECE1005F3DDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5B5DE7F1BCD1AF3006AE76A /* APIClient.h */,
+				A5B5DE801BCD1AF3006AE76A /* APIClient.m */,
+				A50172B01BDF27D60045F887 /* CVS.xcdatamodeld */,
+				6D3A6EB81BD402B6007C1BD9 /* CVSDatabaseImporter.h */,
+				6D3A6EB91BD402B6007C1BD9 /* CVSDatabaseImporter.m */,
+				A59C2BD61BF9947F00B9EAB9 /* CVSDatabaseReader.h */,
+				A59C2BD71BF9947F00B9EAB9 /* CVSDatabaseReader.m */,
+				6DE1B8771BC6ED1A005F3DDD /* DataManager.h */,
+				6DE1B8781BC6ED1A005F3DDD /* DataManager.m */,
+				A5F237BD1BB2C2550050376A /* Doctor.h */,
+				A5F237BE1BB2C2550050376A /* Doctor.m */,
+				B17F62771BE3756C00BF5AFD /* DoctorSpeciality.h */,
+				B17F62781BE3756C00BF5AFD /* DoctorSpeciality.m */,
+				A59C3AF11BF5AE5B000C75E6 /* Pharmacy+CoreDataProperties.h */,
+				A59C3AF21BF5AE5B000C75E6 /* Pharmacy+CoreDataProperties.m */,
+				A59C3AF31BF5AE5B000C75E6 /* Pharmacy.h */,
+				A59C3AF41BF5AE5B000C75E6 /* Pharmacy.m */,
+				A536A70E1C6344FD00A937AE /* PharmacyAnnotation.h */,
+				A536A70F1C6344FD00A937AE /* PharmacyAnnotation.m */,
+				A5B5DE761BCCB3EA006AE76A /* User.h */,
+				A5B5DE771BCCB3EA006AE76A /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		841720271B9D6B1B00B63727 = {
+			isa = PBXGroup;
+			children = (
+				841720321B9D6B1B00B63727 /* ChristiePortal */,
+				8417204C1B9D6B1B00B63727 /* ChristiePortalTests */,
+				983C452F8A175646981CF1A9 /* Frameworks */,
+				8DB4E05E5A4D6CAFA664F41D /* Pods */,
+				841720311B9D6B1B00B63727 /* Products */,
+				20F242B11B9D8CF200A082F5 /* Resources */,
+				6D085F061BCAD42400AC55E0 /* .clang-format */,
+				A555CE861BB54AB700E86675 /* Doxyfile */,
+			);
+			sourceTree = "<group>";
+		};
+		841720311B9D6B1B00B63727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841720301B9D6B1B00B63727 /* ChristiePortal.app */,
+				841720491B9D6B1B00B63727 /* ChristiePortal.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841720321B9D6B1B00B63727 /* ChristiePortal */ = {
+			isa = PBXGroup;
+			children = (
+				6D8DA68A1BD27C3D00111BEA /* Controllers */,
+				6DE1B8761BC6ECE1005F3DDD /* Models */,
+				841720331B9D6B1B00B63727 /* Supporting Files */,
+				A52ECF8B1BC78F3200562B5C /* Utilities */,
+				6D8DA68B1BD27DB800111BEA /* Views */,
+				841720371B9D6B1B00B63727 /* AppDelegate.h */,
+				841720381B9D6B1B00B63727 /* AppDelegate.m */,
+				A53171AC1C05BA4F00AC8859 /* AuthenticationManager.h */,
+				A53171AD1C05BA4F00AC8859 /* AuthenticationManager.m */,
+				A58CD3021BD65382008344EE /* Constants.h */,
+				A58CD3031BD65382008344EE /* Constants.m */,
+				A55F84661C2A8297002EFAA7 /* Environment.h */,
+				A55F84671C2A8297002EFAA7 /* Environment.m */,
+				841720401B9D6B1B00B63727 /* Images.xcassets */,
+				A562B2E91BD1165000C268FF /* LaunchScreen.xib */,
+				A570FD631C153BB200539BE8 /* NavigationManager.h */,
+				A570FD641C153BB200539BE8 /* NavigationManager.m */,
+				A57571EF1C0C07D900BBD0BC /* NearbyPharmacyMonitor.h */,
+				A57571F01C0C07D900BBD0BC /* NearbyPharmacyMonitor.m */,
+				A59773421C290CAC00DFB633 /* NotificationManager.h */,
+				A59773431C290CAC00DFB633 /* NotificationManager.m */,
+				A5F05CDD1C0433E3005E417E /* SettingsManager.h */,
+				A5F05CDE1C0433E3005E417E /* SettingsManager.m */,
+			);
+			path = ChristiePortal;
+			sourceTree = "<group>";
+		};
+		841720331B9D6B1B00B63727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841720341B9D6B1B00B63727 /* Info.plist */,
+				841720351B9D6B1B00B63727 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8417204C1B9D6B1B00B63727 /* ChristiePortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A55BB1F61BF1E86600D3A8F0 /* Controllers */,
+				A59C3AFB1BF5E1C5000C75E6 /* Models */,
+				8417204D1B9D6B1B00B63727 /* Supporting Files */,
+				A55BB1E91BF09D2200D3A8F0 /* Utilities */,
+				A51E8A4F1C06F5890034140A /* AuthenticationManagerTests.m */,
+				A55F84691C2A86C9002EFAA7 /* EnvironmentTests.m */,
+				A570FD661C1542DE00539BE8 /* NavigationManagerTests.m */,
+				A5BBC77D1C0C44CA0094EC67 /* NearbyPharmacyMonitorTests.m */,
+				A59773451C291A3A00DFB633 /* NotificationManagerTests.m */,
+				A570FD541C116A3300539BE8 /* SettingsManagerTests.m */,
+			);
+			path = ChristiePortalTests;
+			sourceTree = "<group>";
+		};
+		8417204D1B9D6B1B00B63727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8417204E1B9D6B1B00B63727 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DB4E05E5A4D6CAFA664F41D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				122B1BBD7BE2D4F15E633FD5 /* Pods-ChristiePortal.debug.xcconfig */,
+				8D950D404DB4B5A061276285 /* Pods-ChristiePortal.release.xcconfig */,
+				64CA504EF7E3EDED446E80E4 /* Pods-ChristiePortalTests.debug.xcconfig */,
+				44EA9F9EA27EEB4171E87B7B /* Pods-ChristiePortalTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		983C452F8A175646981CF1A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A555CE841BB4FAB800E86675 /* libsqlite3.tbd */,
+				91BB53F15A6ACFCC0F682A3F /* libPods.a */,
+				AF4141CC3C09786C04B1693E /* libPods-ChristiePortal.a */,
+				02AC2FBF548EF044C0B9A072 /* libPods-ChristiePortalTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A52ECF8B1BC78F3200562B5C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A55BB1F11BF1A83800D3A8F0 /* Additions */,
+				6DE1B8641BC6DF6E005F3DDD /* DistanceFormatter.h */,
+				6DE1B8651BC6DF6E005F3DDD /* DistanceFormatter.m */,
+				A5DC51091C44ACC500B675A4 /* HealthPlanDetector.h */,
+				A5DC510A1C44ACC500B675A4 /* HealthPlanDetector.m */,
+				A59224111C08701A003C865E /* JSONReader.h */,
+				A59224121C08701A003C865E /* JSONReader.m */,
+				A5D31E101BC2388500ACCB38 /* LocationMonitor.h */,
+				A5D31E111BC2388500ACCB38 /* LocationMonitor.m */,
+				A5B5DE6A1BCB6618006AE76A /* OpenHoursParser.h */,
+				A5B5DE6B1BCB6618006AE76A /* OpenHoursParser.m */,
+				A50BE8ED1BE095BE00D90B7C /* Polygon.h */,
+				A50BE8EE1BE095BE00D90B7C /* Polygon.m */,
+				A51D15031BFD8F04009B45A8 /* Random.h */,
+				A51D15041BFD8F04009B45A8 /* Random.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A52F1CD91BD9FC540064263C /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				A52F1CDD1BD9FCCC0064263C /* LoadingViewController.h */,
+				A52F1CDE1BD9FCCC0064263C /* LoadingViewController.m */,
+				A52F1CDF1BD9FCCC0064263C /* LoadingViewController.xib */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		A53430D11C216045007E1BE7 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				A53430CC1C215196007E1BE7 /* PickerViewController.h */,
+				A53430CD1C215196007E1BE7 /* PickerViewController.m */,
+				A53430CE1C215196007E1BE7 /* PickerViewController.xib */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		A53430D21C216DC6007E1BE7 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				A53430D31C216DDB007E1BE7 /* PickerViewControllerTests.m */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		A545E8481BFEEC04009B991F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A51D15081BFD9BD0009B45A8 /* SettingsViewControllerTests.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A545E8491BFEEC1C009B991F /* Doctors */ = {
+			isa = PBXGroup;
+			children = (
+				A57C8A831C06C77A00B7D24B /* CignaSearchViewControllerTests.m */,
+				B1F8304F1C085C2A00919A10 /* CignaSpecialitiesViewControllerTests.m */,
+				B1F8304D1C08384400919A10 /* CignaViewControllerTests.m */,
+				A5E749571C0569510022ED86 /* TuftsSearchViewControllerTests.m */,
+				A5DC51021C439CD600B675A4 /* TuftsViewControllerTests.m */,
+			);
+			path = Doctors;
+			sourceTree = "<group>";
+		};
+		A545E84A1BFEEC25009B991F /* EuropAssist */ = {
+			isa = PBXGroup;
+			children = (
+				A570FD5C1C11AD2600539BE8 /* EuropAssistViewControllerTests.m */,
+			);
+			path = EuropAssist;
+			sourceTree = "<group>";
+		};
+		A545E84B1BFEEC30009B991F /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		A545E84C1BFEEC36009B991F /* PlanDocuments */ = {
+			isa = PBXGroup;
+			children = (
+				A570FD5E1C11ADAF00539BE8 /* PlanDocumentsViewControllerTests.m */,
+			);
+			path = PlanDocuments;
+			sourceTree = "<group>";
+		};
+		A545E8501BFEEC6A009B991F /* LegalDocuments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LegalDocuments;
+			sourceTree = "<group>";
+		};
+		A545E8521BFEEC75009B991F /* Dental */ = {
+			isa = PBXGroup;
+			children = (
+				A570FD5A1C11AAA100539BE8 /* DentalViewControllerTests.m */,
+			);
+			path = Dental;
+			sourceTree = "<group>";
+		};
+		A55BB1E91BF09D2200D3A8F0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A55BB1F21BF1A85F00D3A8F0 /* Additions */,
+				A55BB1F41BF1AA7800D3A8F0 /* DistanceFormatterTests.m */,
+				A5DC510C1C44AD7D00B675A4 /* HealthPlanDetectorTests.m */,
+				A5D604D41BF34F8F00E779F7 /* LocationMonitorTests.m */,
+				A55BB1EE1BF0B04B00D3A8F0 /* OpenHoursParserTests.m */,
+				A55BB1EA1BF09D5E00D3A8F0 /* PolygonTests.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A55BB1F11BF1A83800D3A8F0 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A5B5DE6D1BCB799D006AE76A /* DTTimePeriod+ContainsTime.h */,
+				A5B5DE6E1BCB799D006AE76A /* DTTimePeriod+ContainsTime.m */,
+				6D3A6EB51BD3966E007C1BD9 /* NSError+APIClient.h */,
+				6D3A6EB61BD3966E007C1BD9 /* NSError+APIClient.m */,
+				6D3A6EB21BD3879D007C1BD9 /* NSError+ResponseData.h */,
+				6D3A6EB31BD3879D007C1BD9 /* NSError+ResponseData.m */,
+				6D3A6EBC1BD548E3007C1BD9 /* UIColor+Hex.h */,
+				6D3A6EBD1BD548E3007C1BD9 /* UIColor+Hex.m */,
+				A53430C91C211244007E1BE7 /* UIView+LayoutHelpers.h */,
+				A53430CA1C211244007E1BE7 /* UIView+LayoutHelpers.m */,
+				A554D99F1C0D76DD0072654D /* UIViewController+AlertHelpers.h */,
+				A554D9A01C0D76DD0072654D /* UIViewController+AlertHelpers.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		A55BB1F21BF1A85F00D3A8F0 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B10F75191BFDD35F00EAED6D /* DTTimePeriodContainsTimeTests.m */,
+				A5DC88C11BFFD3C600BE34B6 /* NSErrorAPIClientTests.m */,
+				A5DC88C31C02C8B400BE34B6 /* NSErrorResponseDataTests.m */,
+				A53228661C06F94100237960 /* UIColorHexConversionTests.m */,
+				A554D9A21C0DB37D0072654D /* UIViewControllerAlertHelpersTests.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		A55BB1F61BF1E86600D3A8F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A545E8521BFEEC75009B991F /* Dental */,
+				A545E8491BFEEC1C009B991F /* Doctors */,
+				A545E84A1BFEEC25009B991F /* EuropAssist */,
+				A545E8501BFEEC6A009B991F /* LegalDocuments */,
+				B1F073F61C04705A00485955 /* Loading */,
+				B1F073F41C04703600485955 /* Login */,
+				B1F073F51C04704800485955 /* Menu */,
+				B1F073F01C045BB100485955 /* MyChrisitie */,
+				B1F073EB1C02F42B00485955 /* Pharmacies */,
+				A53430D21C216DC6007E1BE7 /* Picker */,
+				A545E84C1BFEEC36009B991F /* PlanDocuments */,
+				B1F073F31C04701C00485955 /* Registration */,
+				A545E8481BFEEC04009B991F /* Settings */,
+				A545E84B1BFEEC30009B991F /* Vision */,
+				A5B178761BFB0F7B003932CC /* BaseViewControllerTests.m */,
+				A51D15061BFD90AC009B45A8 /* FrontViewControllerTests.m */,
+				A53B43AC1BFC9D2700ED500C /* WebViewControllerTests.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A58CD30A1BD79E43008344EE /* PlanDocuments */ = {
+			isa = PBXGroup;
+			children = (
+				A58CD30B1BD79EC0008344EE /* PlanDocumentsViewController.h */,
+				A58CD30C1BD79EC0008344EE /* PlanDocumentsViewController.m */,
+				A58CD30D1BD79EC0008344EE /* PlanDocumentsViewController.xib */,
+			);
+			path = PlanDocuments;
+			sourceTree = "<group>";
+		};
+		A59BBF271BE0A6250081F876 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				A59BBF261BE0A5860081F876 /* Boston, MA.gpx */,
+				A58D631C1BE0C2B800D473C0 /* MA Western Border, In.gpx */,
+				A58D631B1BE0C28600D473C0 /* MA Western Border, Out.gpx */,
+				A58D631D1BE0C64700D473C0 /* New York, NY.gpx */,
+				A59BBF291BE0A84C0081F876 /* Pittsfield, MA.gpx */,
+				A59BBF281BE0A7E40081F876 /* Providence, RI.gpx */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		A59C3AFB1BF5E1C5000C75E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D860B221BFFBBDA008D1583 /* APIClientTests.m */,
+				A59C3AFC1BF5E1DA000C75E6 /* CVSDatabaseImporterTests.m */,
+				6D12DDE21BFFD53600FC6B3E /* CVSDatabaseReaderTests.m */,
+				A5EF90731C082E8300F19C42 /* DataManagerTests.m */,
+				A56C60D01C1EBC7500C12C45 /* DoctorTests.m */,
+				A5EF90701C0826A000F19C42 /* PharmacyTests+OpenHours.m */,
+				A5EF90721C08275D00F19C42 /* PharmacyTests.h */,
+				A5EF906E1C07209C00F19C42 /* PharmacyTests.m */,
+				A58D0FC01BFC915A0047CE73 /* UserTests.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B101D9981B9FF45C0085F755 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1F69D1BCE84FB008A1773 /* LoginViewController.h */,
+				A5E1F69E1BCE84FB008A1773 /* LoginViewController.m */,
+				A5A6C0D61BD0A64A00B07FE8 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B1F073EB1C02F42B00485955 /* Pharmacies */ = {
+			isa = PBXGroup;
+			children = (
+				A57C8A811C06BADB00B7D24B /* PharmaciesViewControllerTests.m */,
+				B1F073EE1C03084900485955 /* PharmacyDetailsViewControllerTests.m */,
+				A53228641C06F92F00237960 /* PharmacySearchViewControllerTests.m */,
+			);
+			path = Pharmacies;
+			sourceTree = "<group>";
+		};
+		B1F073F01C045BB100485955 /* MyChrisitie */ = {
+			isa = PBXGroup;
+			children = (
+				B1F073F11C045BDA00485955 /* MyChristieViewControllerTests.m */,
+			);
+			path = MyChrisitie;
+			sourceTree = "<group>";
+		};
+		B1F073F31C04701C00485955 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B10F75111BFD915800EAED6D /* AccountViewControllerTests.m */,
+				B10F75131BFD9BA200EAED6D /* SecurityQuestionViewControllerTests.m */,
+				B10F75151BFDB5E500EAED6D /* VerificationCodeViewControllerTests.m */,
+				A5B99D851BFC446300FE65E1 /* WelcomeViewControllerTests.m */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		B1F073F41C04703600485955 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A5B178741BF9D409003932CC /* LoginViewControllerTests.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B1F073F51C04704800485955 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A55BB1F71BF1E8AC00D3A8F0 /* MenuViewControllerTests.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B1F073F61C04705A00485955 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				A58D0FC21BFC93480047CE73 /* LoadingViewControllerTests.m */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8417202F1B9D6B1B00B63727 /* ChristiePortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841720531B9D6B1B00B63727 /* Build configuration list for PBXNativeTarget "ChristiePortal" */;
+			buildPhases = (
+				FF3A060272440C01158A77DA /* Check Pods Manifest.lock */,
+				8417202C1B9D6B1B00B63727 /* Sources */,
+				8417202D1B9D6B1B00B63727 /* Frameworks */,
+				8417202E1B9D6B1B00B63727 /* Resources */,
+				53D4E4B047A1746F741C9BBB /* Copy Pods Resources */,
+				224A0E01F2864F0D7C5B2751 /* Embed Pods Frameworks */,
+				A57AC0B91C6B21E10069E0A4 /* ShellScript */,
+				A55243971C6B533E00B18B7F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChristiePortal;
+			productName = ChristiePortal;
+			productReference = 841720301B9D6B1B00B63727 /* ChristiePortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841720481B9D6B1B00B63727 /* ChristiePortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841720561B9D6B1B00B63727 /* Build configuration list for PBXNativeTarget "ChristiePortalTests" */;
+			buildPhases = (
+				32DCB47C78454D128DC57C94 /* Check Pods Manifest.lock */,
+				841720451B9D6B1B00B63727 /* Sources */,
+				841720461B9D6B1B00B63727 /* Frameworks */,
+				841720471B9D6B1B00B63727 /* Resources */,
+				46617DB4153A0712BED9DB54 /* Copy Pods Resources */,
+				BF35DFDC5D719E394C8557EC /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8417204B1B9D6B1B00B63727 /* PBXTargetDependency */,
+			);
+			name = ChristiePortalTests;
+			productName = ChristiePortalTests;
+			productReference = 841720491B9D6B1B00B63727 /* ChristiePortal.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841720281B9D6B1B00B63727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Rhinoda;
+				TargetAttributes = {
+					8417202F1B9D6B1B00B63727 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 32MXG5SFK2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					841720481B9D6B1B00B63727 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8417202F1B9D6B1B00B63727;
+					};
+				};
+			};
+			buildConfigurationList = 8417202B1B9D6B1B00B63727 /* Build configuration list for PBXProject "ChristiePortal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841720271B9D6B1B00B63727;
+			productRefGroup = 841720311B9D6B1B00B63727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8417202F1B9D6B1B00B63727 /* ChristiePortal */,
+				841720481B9D6B1B00B63727 /* ChristiePortalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8417202E1B9D6B1B00B63727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EB73BA1C61E934006F3BF9 /* PharmacySearchOptionCell.xib in Resources */,
+				20F242CB1B9D8CF200A082F5 /* MyriadProSemiBold.ttf in Resources */,
+				A5B5DE7A1BCCCD20006AE76A /* CVS.sql in Resources */,
+				A58CD3091BD7969A008344EE /* ClaimsViewController.xib in Resources */,
+				A5F237C41BB3B5E80050376A /* DoctorsDropdownCell.xib in Resources */,
+				6DE1B8711BC6E69E005F3DDD /* PharmacyDetailsViewController.xib in Resources */,
+				A589B1FE1BD0E0E9004983D6 /* SecurityQuestionViewController.xib in Resources */,
+				596363EC1B9ED47B00943936 /* VisionViewController.xib in Resources */,
+				B17F625B1BDF635400BF5AFD /* CignaSearchViewController.xib in Resources */,
+				B17F62811BE72EB500BF5AFD /* DoctorSpecialityCell.xib in Resources */,
+				A53430D01C215196007E1BE7 /* PickerViewController.xib in Resources */,
+				A562B2EA1BD1165000C268FF /* LaunchScreen.xib in Resources */,
+				6DDCC8931BCFE0E7005BB957 /* MenuViewController.xib in Resources */,
+				596363E71B9ED46900943936 /* DentalViewController.xib in Resources */,
+				20F242C91B9D8CF200A082F5 /* MyriadProItalic.ttf in Resources */,
+				A5DC51011C439C8200B675A4 /* TuftsViewController.xib in Resources */,
+				6DE1B8731BC6E69E005F3DDD /* PharmacySearchCell.xib in Resources */,
+				596363F61B9ED4C800943936 /* PharmaciesViewController.xib in Resources */,
+				A5641BE81BD0CE50004768A5 /* AccountViewController.xib in Resources */,
+				A58CD30F1BD79EC0008344EE /* PlanDocumentsViewController.xib in Resources */,
+				596363E21B9ED45900943936 /* EuropAssistViewController.xib in Resources */,
+				596363DD1B9ED44400943936 /* LegalDocumentsViewController.xib in Resources */,
+				6DE1B8751BC6E69E005F3DDD /* PharmacySearchViewController.xib in Resources */,
+				B1ED5CA61C92BC70005094A9 /* StreetViewController.xib in Resources */,
+				20F242C71B9D8CF200A082F5 /* MyriadProBold.ttf in Resources */,
+				B12B24521BB26252004A658D /* SettingsViewController.xib in Resources */,
+				B17F627B1BE37CA400BF5AFD /* DoctorSpecialities.json in Resources */,
+				841720411B9D6B1B00B63727 /* Images.xcassets in Resources */,
+				20F242C81B9D8CF200A082F5 /* MyriadProBoldItalic.ttf in Resources */,
+				20F242CA1B9D8CF200A082F5 /* MyriadProRegular.ttf in Resources */,
+				596363F11B9ED4A900943936 /* TuftsSearchViewController.xib in Resources */,
+				B17F62611BE2007B00BF5AFD /* CignaViewController.xib in Resources */,
+				A54075D91C226181008DA0B8 /* OpenStatusBadge.xib in Resources */,
+				A5A6C0D71BD0A64A00B07FE8 /* LoginViewController.xib in Resources */,
+				20F242CC1B9D8CF200A082F5 /* MyriadProSemiBoldItalic.ttf in Resources */,
+				6D085F071BCAD42400AC55E0 /* .clang-format in Resources */,
+				B17F62661BE331FD00BF5AFD /* CignaSpecialitiesViewController.xib in Resources */,
+				A5DC51081C43B67700B675A4 /* TuftsDoctorDetailsViewController.xib in Resources */,
+				A52F1CE11BD9FCCC0064263C /* LoadingViewController.xib in Resources */,
+				596363C21B9ED25900943936 /* MyChristieViewController.xib in Resources */,
+				A555CE871BB54AB700E86675 /* Doxyfile in Resources */,
+				A589B1FC1BD0DA0D004983D6 /* WelcomeViewController.xib in Resources */,
+				47419A1D1BB25E97007AA770 /* DoctorCell.xib in Resources */,
+				A5641BE61BD0C5CE004768A5 /* VerificationCodeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841720471B9D6B1B00B63727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		224A0E01F2864F0D7C5B2751 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristiePortal/Pods-ChristiePortal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32DCB47C78454D128DC57C94 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46617DB4153A0712BED9DB54 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristiePortalTests/Pods-ChristiePortalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D4E4B047A1746F741C9BBB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristiePortal/Pods-ChristiePortal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55243971C6B533E00B18B7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This is a modified version of the build number generation script posted at:\n# http://blog.jaredsinclair.com/post/97193356620/the-best-of-all-possible-xcode-automated-build\n\nGIT_COMMIT_COUNT=\"$(git rev-list HEAD --count)\"\nGIT_BRANCH=\"$(git rev-parse --abbrev-ref HEAD)\"\n\nBUILD_NUMBER=\"$GIT_COMMIT_COUNT\"\nif [ \"$GIT_BRANCH\" != \"master\" ]; then\n    BUILD_NUMBER=\"$BUILD_NUMBER-$GIT_BRANCH\"\nfi\nif [ \"$CONFIGURATION\" = \"Debug\" ]; then\n    BUILD_NUMBER=\"$BUILD_NUMBER-debug\"\nfi\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}.dSYM/Contents/Info.plist\"\n\necho \"Current build number: $BUILD_NUMBER\"";
+		};
+		A57AC0B91C6B21E10069E0A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 8c6e7219f53f92b5d215c81902a5838911d646be 013f0115d333dd7055a27fa3709cb4f82129cd1527ee2b34e5b7bfca4a90dce2";
+		};
+		BF35DFDC5D719E394C8557EC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChristiePortalTests/Pods-ChristiePortalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3A060272440C01158A77DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8417202C1B9D6B1B00B63727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50172B21BDF27D60045F887 /* CVS.xcdatamodeld in Sources */,
+				A5B5DE6F1BCB799D006AE76A /* DTTimePeriod+ContainsTime.m in Sources */,
+				6D3A6EBE1BD548E3007C1BD9 /* UIColor+Hex.m in Sources */,
+				B17F625A1BDF635400BF5AFD /* CignaSearchViewController.m in Sources */,
+				A59C3AF51BF5AE5B000C75E6 /* Pharmacy+CoreDataProperties.m in Sources */,
+				6D3A6EB41BD3879D007C1BD9 /* NSError+ResponseData.m in Sources */,
+				596363E61B9ED46900943936 /* DentalViewController.m in Sources */,
+				B1ED5CA51C92BC70005094A9 /* StreetViewController.m in Sources */,
+				A55F84681C2A8297002EFAA7 /* Environment.m in Sources */,
+				A5F892791BEB33AB0008D37F /* MenuButton.m in Sources */,
+				6DDCC8921BCFE0E7005BB957 /* MenuViewController.m in Sources */,
+				B17F62601BE2007B00BF5AFD /* CignaViewController.m in Sources */,
+				6D754D471C187C2200D4F867 /* MenuOverlayView.m in Sources */,
+				A53171AE1C05BA4F00AC8859 /* AuthenticationManager.m in Sources */,
+				A5E1F69F1BCE84FB008A1773 /* LoginViewController.m in Sources */,
+				6DE1B8661BC6DF6E005F3DDD /* DistanceFormatter.m in Sources */,
+				A5F237BB1BB277B60050376A /* DoctorCell.m in Sources */,
+				A53430C81C1FE5BA007E1BE7 /* BaseTableViewCell.m in Sources */,
+				A58CD30E1BD79EC0008344EE /* PlanDocumentsViewController.m in Sources */,
+				B12B24511BB26252004A658D /* SettingsViewController.m in Sources */,
+				B101D99E1B9FF4BC0085F755 /* WelcomeViewController.m in Sources */,
+				A59773441C290CAC00DFB633 /* NotificationManager.m in Sources */,
+				B1B878071BB52B84001E69F4 /* SecurityQuestionViewController.m in Sources */,
+				A5DC51001C439C8200B675A4 /* TuftsViewController.m in Sources */,
+				596363F01B9ED4A900943936 /* TuftsSearchViewController.m in Sources */,
+				596363EB1B9ED47B00943936 /* VisionViewController.m in Sources */,
+				6DE1B8791BC6ED1A005F3DDD /* DataManager.m in Sources */,
+				A518D37A1C4E5CA9001E6BA3 /* NavigationController.m in Sources */,
+				A5DC510B1C44ACC500B675A4 /* HealthPlanDetector.m in Sources */,
+				A58CD3081BD7969A008344EE /* ClaimsViewController.m in Sources */,
+				B17F62801BE72EB500BF5AFD /* DoctorSpecialityCell.m in Sources */,
+				A51D15051BFD8F04009B45A8 /* Random.m in Sources */,
+				A536A7101C6344FD00A937AE /* PharmacyAnnotation.m in Sources */,
+				596363B91B9EC98D00943936 /* FrontViewController.m in Sources */,
+				A5F237C71BB3B64A0050376A /* DoctorsDropdownCell.m in Sources */,
+				A53430CF1C215196007E1BE7 /* PickerViewController.m in Sources */,
+				6D3A6EB71BD3966E007C1BD9 /* NSError+APIClient.m in Sources */,
+				A5B5DE781BCCB3EA006AE76A /* User.m in Sources */,
+				B101D99B1B9FF4A90085F755 /* VerificationCodeViewController.m in Sources */,
+				A5F05CDF1C0433E3005E417E /* SettingsManager.m in Sources */,
+				841720391B9D6B1B00B63727 /* AppDelegate.m in Sources */,
+				A52E58601BD4ABA300394C34 /* BaseViewController.m in Sources */,
+				6DE1B8721BC6E69E005F3DDD /* PharmacySearchCell.m in Sources */,
+				A570FD651C153BB200539BE8 /* NavigationManager.m in Sources */,
+				A554D9A11C0D76DD0072654D /* UIViewController+AlertHelpers.m in Sources */,
+				A59224131C08701A003C865E /* JSONReader.m in Sources */,
+				841720361B9D6B1B00B63727 /* main.m in Sources */,
+				A53430CB1C211244007E1BE7 /* UIView+LayoutHelpers.m in Sources */,
+				6DE1B8701BC6E69E005F3DDD /* PharmacyDetailsViewController.m in Sources */,
+				A5D31E121BC2388500ACCB38 /* LocationMonitor.m in Sources */,
+				B17F62791BE3756C00BF5AFD /* DoctorSpeciality.m in Sources */,
+				A50BE8EF1BE095BE00D90B7C /* Polygon.m in Sources */,
+				596363F51B9ED4C800943936 /* PharmaciesViewController.m in Sources */,
+				A59C2BD81BF9947F00B9EAB9 /* CVSDatabaseReader.m in Sources */,
+				A5F237BF1BB2C2550050376A /* Doctor.m in Sources */,
+				6D3A6EBA1BD402B6007C1BD9 /* CVSDatabaseImporter.m in Sources */,
+				B17F62651BE331FD00BF5AFD /* CignaSpecialitiesViewController.m in Sources */,
+				A57571F11C0C07D900BBD0BC /* NearbyPharmacyMonitor.m in Sources */,
+				6DE1B8741BC6E69E005F3DDD /* PharmacySearchViewController.m in Sources */,
+				A59C3AF61BF5AE5B000C75E6 /* Pharmacy.m in Sources */,
+				596363C11B9ED25900943936 /* MyChristieViewController.m in Sources */,
+				B1EB73B91C61E934006F3BF9 /* PharmacySearchOptionCell.m in Sources */,
+				A5B5DE811BCD1AF3006AE76A /* APIClient.m in Sources */,
+				A58CD3041BD65382008344EE /* Constants.m in Sources */,
+				A58CD3121BD7A601008344EE /* WebViewController.m in Sources */,
+				A5B5DE6C1BCB6618006AE76A /* OpenHoursParser.m in Sources */,
+				596363DC1B9ED44400943936 /* LegalDocumentsViewController.m in Sources */,
+				A5DC51071C43B67700B675A4 /* TuftsDoctorDetailsViewController.m in Sources */,
+				596363E11B9ED45900943936 /* EuropAssistViewController.m in Sources */,
+				B16447611BCF7EE300383670 /* AccountViewController.m in Sources */,
+				A54075D81C226181008DA0B8 /* OpenStatusBadge.m in Sources */,
+				A52F1CE01BD9FCCC0064263C /* LoadingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841720451B9D6B1B00B63727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59773461C291A3A00DFB633 /* NotificationManagerTests.m in Sources */,
+				A570FD5B1C11AAA100539BE8 /* DentalViewControllerTests.m in Sources */,
+				A51D15071BFD90AC009B45A8 /* FrontViewControllerTests.m in Sources */,
+				A56C60D11C1EBC7500C12C45 /* DoctorTests.m in Sources */,
+				A55BB1EB1BF09D5E00D3A8F0 /* PolygonTests.m in Sources */,
+				A57C8A841C06C77A00B7D24B /* CignaSearchViewControllerTests.m in Sources */,
+				A59C3AFD1BF5E1DA000C75E6 /* CVSDatabaseImporterTests.m in Sources */,
+				A570FD671C1542DE00539BE8 /* NavigationManagerTests.m in Sources */,
+				A53430D41C216DDB007E1BE7 /* PickerViewControllerTests.m in Sources */,
+				A53228651C06F92F00237960 /* PharmacySearchViewControllerTests.m in Sources */,
+				A5EF906F1C07209C00F19C42 /* PharmacyTests.m in Sources */,
+				A51D15091BFD9BD0009B45A8 /* SettingsViewControllerTests.m in Sources */,
+				A5B178771BFB0F7B003932CC /* BaseViewControllerTests.m in Sources */,
+				B1F8304E1C08384400919A10 /* CignaViewControllerTests.m in Sources */,
+				A5DC510D1C44AD7D00B675A4 /* HealthPlanDetectorTests.m in Sources */,
+				B10F751A1BFDD35F00EAED6D /* DTTimePeriodContainsTimeTests.m in Sources */,
+				A5B178751BF9D409003932CC /* LoginViewControllerTests.m in Sources */,
+				A55BB1F51BF1AA7800D3A8F0 /* DistanceFormatterTests.m in Sources */,
+				6D12DDE31BFFD53600FC6B3E /* CVSDatabaseReaderTests.m in Sources */,
+				A58D0FC31BFC93480047CE73 /* LoadingViewControllerTests.m in Sources */,
+				A554D9A31C0DB37D0072654D /* UIViewControllerAlertHelpersTests.m in Sources */,
+				A53B43AD1BFC9D2700ED500C /* WebViewControllerTests.m in Sources */,
+				A5D604D51BF34F8F00E779F7 /* LocationMonitorTests.m in Sources */,
+				A5DC88C41C02C8B400BE34B6 /* NSErrorResponseDataTests.m in Sources */,
+				A55BB1F81BF1E8AC00D3A8F0 /* MenuViewControllerTests.m in Sources */,
+				A58D0FC11BFC915A0047CE73 /* UserTests.m in Sources */,
+				A51E8A501C06F5890034140A /* AuthenticationManagerTests.m in Sources */,
+				6D860B231BFFBBDA008D1583 /* APIClientTests.m in Sources */,
+				A5BBC77E1C0C44CA0094EC67 /* NearbyPharmacyMonitorTests.m in Sources */,
+				A5DC51031C439CD600B675A4 /* TuftsViewControllerTests.m in Sources */,
+				A5EF90741C082E8300F19C42 /* DataManagerTests.m in Sources */,
+				A55BB1EF1BF0B04B00D3A8F0 /* OpenHoursParserTests.m in Sources */,
+				B1F073EF1C03084900485955 /* PharmacyDetailsViewControllerTests.m in Sources */,
+				A57C8A821C06BADB00B7D24B /* PharmaciesViewControllerTests.m in Sources */,
+				B10F75141BFD9BA200EAED6D /* SecurityQuestionViewControllerTests.m in Sources */,
+				A5B99D861BFC446300FE65E1 /* WelcomeViewControllerTests.m in Sources */,
+				A570FD5D1C11AD2600539BE8 /* EuropAssistViewControllerTests.m in Sources */,
+				A5DC88C21BFFD3C600BE34B6 /* NSErrorAPIClientTests.m in Sources */,
+				A55F846A1C2A86C9002EFAA7 /* EnvironmentTests.m in Sources */,
+				A5E749581C0569510022ED86 /* TuftsSearchViewControllerTests.m in Sources */,
+				A570FD5F1C11ADAF00539BE8 /* PlanDocumentsViewControllerTests.m in Sources */,
+				B10F75161BFDB5E500EAED6D /* VerificationCodeViewControllerTests.m in Sources */,
+				A570FD551C116A3300539BE8 /* SettingsManagerTests.m in Sources */,
+				A53228671C06F94100237960 /* UIColorHexConversionTests.m in Sources */,
+				B10F75121BFD915800EAED6D /* AccountViewControllerTests.m in Sources */,
+				B1F830501C085C2A00919A10 /* CignaSpecialitiesViewControllerTests.m in Sources */,
+				A5EF90711C0826A000F19C42 /* PharmacyTests+OpenHours.m in Sources */,
+				B1F073F21C045BDA00485955 /* MyChristieViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8417204B1B9D6B1B00B63727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8417202F1B9D6B1B00B63727 /* ChristiePortal */;
+			targetProxy = 8417204A1B9D6B1B00B63727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		841720511B9D6B1B00B63727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841720521B9D6B1B00B63727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841720541B9D6B1B00B63727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122B1BBD7BE2D4F15E633FD5 /* Pods-ChristiePortal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				INFOPLIST_FILE = "ChristiePortal/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhinoda.CristiePortal;
+				PRODUCT_NAME = ChristiePortal;
+			};
+			name = Debug;
+		};
+		841720551B9D6B1B00B63727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D950D404DB4B5A061276285 /* Pods-ChristiePortal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				INFOPLIST_FILE = "ChristiePortal/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhinoda.CristiePortal;
+				PRODUCT_NAME = ChristiePortal;
+			};
+			name = Release;
+		};
+		841720571B9D6B1B00B63727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CA504EF7E3EDED446E80E4 /* Pods-ChristiePortalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChristiePortalTests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhinoda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ChristiePortal;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristiePortal.app/ChristiePortal";
+			};
+			name = Debug;
+		};
+		841720581B9D6B1B00B63727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44EA9F9EA27EEB4171E87B7B /* Pods-ChristiePortalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = "ChristiePortalTests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rhinoda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ChristiePortal;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristiePortal.app/ChristiePortal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8417202B1B9D6B1B00B63727 /* Build configuration list for PBXProject "ChristiePortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841720511B9D6B1B00B63727 /* Debug */,
+				841720521B9D6B1B00B63727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841720531B9D6B1B00B63727 /* Build configuration list for PBXNativeTarget "ChristiePortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841720541B9D6B1B00B63727 /* Debug */,
+				841720551B9D6B1B00B63727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841720561B9D6B1B00B63727 /* Build configuration list for PBXNativeTarget "ChristiePortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841720571B9D6B1B00B63727 /* Debug */,
+				841720581B9D6B1B00B63727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A50172B01BDF27D60045F887 /* CVS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A50172B11BDF27D60045F887 /* CVS.xcdatamodel */,
+			);
+			currentVersion = A50172B11BDF27D60045F887 /* CVS.xcdatamodel */;
+			path = CVS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 841720281B9D6B1B00B63727 /* Project object */;
+}

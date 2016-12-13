@@ -1,0 +1,826 @@
+ [
+  {
+  "title": "Acupuncture",
+  "definition": "Non-drug, non-surgical treatment for health and wellness, therapy and relief of many different symptoms using very thin needles to \"open\" the body's natural energy flow; natural medicine, alternative medicine, complementary medicine. Acupuncturist."
+  },
+  {
+  "title": "Addiction Psychology",
+  "definition": "Support for substance abuse. Mental health diagnosis and therapy for drug and alcohol addiction using group or individual \"talk therapy.\" Psychologist, drug psychologist."
+  },
+  {
+  "title": "Adolescent Medicine",
+  "definition": "Health and wellness for teenagers, diagnosis and treatment for teen disorders and problems. Includes teen eating disorders, self-esteem problems, pain, growth and puberty disorders, etc. Pediatrician, adolescent doctor, teen-friendly doctor."
+  },
+  {
+  "title": "Adult Nurse Practitioner, Primary Care",
+  "definition": "Advanced Registered Nurse (RN) with higher education and training in adult health and medical care. Provides general health and wellness care for adults. NP, Nurse Practitioner, primary care nurse."
+  },
+  {
+  "title": "Aerospace Medicine",
+  "definition": "Medical treatment, health care and safety for astronauts and pilots, including health issues due to lack of oxygen, radiation exposure, gravity sickness, etc. Aviation doctor, aerospace doctor."
+  },
+  {
+  "title": "Allergy",
+  "definition": "Medical diagnosis and treatment for allergic (bad) reactions to food and other environmental factors, including hay fever, bee stings, food allergies, etc. Allergist, allergy doctor, hay fever doctor, asthma doctor."
+  },
+  {
+  "title": "Allergy - Immunology",
+  "definition": "Allergic reactions and immune system health. Medical diagnosis and treatment for allergies (insect stings, food, pet dander, etc.) and immune system diseases (rheumatoid arthritis, eczema, etc.), allergy shots. Allergist, immunologist, asthma doctor."
+  },
+  {
+  "title": "Anatomic Pathology and Laboratory Medicine",
+  "definition": "Study of the effect of diseases and illnesses on organs and tissues. Biopsy."
+  },
+  {
+  "title": "Andrology",
+  "definition": "Diagnosis and treatment for disorders and diseases related to male sex, impotence, sex drive, infertility (reproductive issues), erectile dysfunction (ED), etc.; male sexual health. Urologist, men's health doctor."
+  },
+  {
+  "title": "Anesthesia, Certified RN",
+  "definition": "Advanced Registered Nurse (RN) with higher education and training. Gives drugs, medications and gases (anesthesia) to patients before and during surgery for pain-free procedures."
+  },
+  {
+  "title": "Anesthesiology",
+  "definition": "Medical specialty that uses surgical drugs and gases (anesthetics) for pain management during surgery or other painful treatments. Anesthesiologist, anesthesia doctor."
+  },
+  {
+  "title": "Anesthesiology Assistant",
+  "definition": "Works under the direction of an Anesthesiologist to deliver anesthesia (surgical gases and drugs) to patients during surgery. AAs possess Masters degrees and additional advanced training specific to the job."
+  },
+  {
+  "title": "Athletic Training",
+  "definition": "Care, treatment, prevention of sports injuries, training that keeps athletes healthy and performing at their highest. Eating right for athletes, etc.; sports medicine. Athletic trainer."
+  },
+  {
+  "title": "Audiology",
+  "definition": "Diagnosis and treatment for hearing problems, hearing loss, balance issues, hearing aids, ear implants, etc. Audiologist, hearing doctor. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Blood Banking - Transfusion Medicine",
+  "definition": "Collection, diagnosis, treatment for blood borne diseases. Use of blood for research and medical treatment; blood collection, blood health. Blood bank, transfusion doctor. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Cancer Medicine (Oncology)",
+  "definition": "Diagnosis, care and treatment for types of cancer."
+  },
+  {
+  "title": "Cardiology",
+  "definition": "Diagnosis, treatment, surgery for diseases, disorders and conditions of the heart, including heart attack, bypass surgery, heart disease, etc. Cardiologist, heart doctor, heart surgeon, doctor for a heart attack."
+  },
+  {
+  "title": "Cardiology, Interventional",
+  "definition": "Treatment for heart disease and disorders using a catheter (thin tube) to open up major blood vessels and arteries around the heart. Includes angioplasty. Cardiologist, heart specialist, heart surgeon."
+  },
+  {
+  "title": "Cardiovascular Disease",
+  "definition": "Treatment for heart problems including heart disease, chest pain, heart attack, angina, clogged blood vessels, etc. Cardiologist, heart specialist, heart doctor."
+  },
+  {
+  "title": "Cardiovascular Surgery",
+  "definition": "Use of surgical procedures to fix heart problems; heart surgery. Cardiac surgeon."
+  },
+  {
+  "title": "Child Abuse Pediatrics",
+  "definition": "Care, treatment and diagnosis for children suspected of being abused, neglected, or badly treated. Specially trained pediatrician."
+  },
+  {
+  "title": "Child Psychology",
+  "definition": "Emotional and behavioral counseling for children. A psychologist is not a medical doctor."
+  },
+  {
+  "title": "Chiropractic",
+  "definition": "Manual movement or adjustment of the neck, back, spine and joints to ease pain, headaches, promote good health, etc. Spine doctor, Chiropractor."
+  },
+  {
+  "title": "Chiropractic (California Self-Refer Network)",
+  "definition": "Chiropractic network available to customers with self-referral coverage offered through their employers. Chiropractic: manual movement or adjustment of the neck, back, spine and joints to ease pain, headaches, promote good health, etc. Spine doctor, Chiropractor."
+  },
+  {
+  "title": "Clinical Biochemical Genetics",
+  "definition": "Medical lab science that studies and tests hormones and metabolism to help doctors treat diseases and conditions; metabolic tests. Genetic scientist, hormone specialist."
+  },
+  {
+  "title": "Clinical Cardiac Electrophysiology",
+  "definition": "Medical specialty that identifies and treats irregular heart beats, heart disorders, arrhythmia, includes pacemakers. Electrophysiologist, Cardiologist, heart specialist, heart doctor."
+  },
+  {
+  "title": "Clinical Cytogenetics",
+  "definition": "A medical laboratory-based specialty in which specialists study chromosome samples for the purposes of detecting and identifying hereditary diseases and abnormalities (those passed through a family bloodline)."
+  },
+  {
+  "title": "Clinical Genetics",
+  "definition": "A clinical medical specialty (doctors must have an MD or DO degree) with a focus on comprehensive diagnosis, treatment, management and counseling for hereditary disorders and diseases (those passed through a family bloodline). Clinical geneticist, medical genetics."
+  },
+  {
+  "title": "Clinical Neurophysiology",
+  "definition": "Medical study of electrical impulses in nerves and brain. Used to help identify disease and disorders. Use of electroencephalography (EEG) tests, electromyography (EMG) tests. Neurophysiologist."
+  },
+  {
+  "title": "Clinical Pathology",
+  "definition": "Identification of disease and illnesses using samples of blood and other body fluids."
+  },
+  {
+  "title": "Colorectal Surgery (Colon and Rectal)",
+  "definition": "Use of surgical procedures to fix damage to colon, large intestine (bowel), rectum, etc. due to disease, illness or injury. Includes treatment for colon cancer, Crohn's disease, colitis, etc."
+  },
+  {
+  "title": "Counseling",
+  "definition": "Support and \"talk therapy\" for individuals or groups coping with family, work and other life challenges. Therapist. Social worker. Psychiatrist."
+  },
+  {
+  "title": "Critical Care Medicine",
+  "definition": "Care and life support for patients with serious illnesses or recovering from serious surgery, usually in an Intensive Care Unit in a hospital. ICU doctor, Critical Care doctor."
+  },
+  {
+  "title": "Cytopathology",
+  "definition": "Study of disease found in organ cells. A pap smear, a test used to detect cancer cells in a woman's uterus, is a common cytopathology test. Cellular disease science. Cytopathologist. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Dermatological Immunology",
+  "definition": "Identification and study of skin diseases and how they relate to the skin's immune system, or how skin fights disease. Dermatological immunologist, skin doctor."
+  },
+  {
+  "title": "Dermatology",
+  "definition": "Disorders, diseases and conditions of the skin, including acne, psoriasis, eczema, skin cancer, etc. Skin doctor, Dermatologist."
+  },
+  {
+  "title": "Dermatopathology",
+  "definition": "Study of skin health and diseases. Identification and diagnosis of skin diseases using lab tests. Dermatopathologist, dermatologist, skin pathologist, skin scientist."
+  },
+  {
+  "title": "Diabetic Medicine",
+  "definition": "Treatment and support for diabetes. Because the condition affects many body functions, treatment can involve many types of doctors and professionals. Metabolic syndrome. Diabetes doctor, endocrinologist. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Addiction Psychology",
+  "definition": "Support for substance abuse. Mental health diagnosis and therapy for drug and alcohol addiction using group or individual \"talk therapy.\" Psychologist, drug psychologist."
+  },
+  {
+  "title": "ENT (Ear, Nose and Throat)",
+  "definition": "Diagnosis, care and treatment for disorders, diseases and problems related to the ears, nose and throat. Otolaryngology, otolaryngologist."
+  },
+  {
+  "title": "Emergency Medicine",
+  "definition": "Treatment for sickness, injuries, accidents and medical problems that require immediate attention. ED doctor, Emergency Department doctor, Emergency Medicine Nurse Practitioner."
+  },
+  {
+  "title": "Emergency Nurse Practitioner",
+  "definition": "Advanced Registered Nurse (RN) with higher education and specialized training. Provides care and treatment for life-threatening or serious sickness, injuries, accidents and medical problems that require immediate attention."
+  },
+  {
+  "title": "Endocrinology and Metabolism",
+  "definition": "Diagnosis and treatment for disorders and diseases of glands, body hormones, including diabetes, thyroid problems, etc. Endocrinologist, diabetes doctor. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Family Nurse Practitioner",
+  "definition": "Advanced Registered Nurse (RN) with higher education and training who provides general health and wellness care and medical treatment for children and adults. Nurse Practitioner, NP."
+  },
+  {
+  "title": "Family Nurse Practitioner - Primary Care",
+  "definition": "Advanced Registered Nurse (RN) with higher education and training who provides general health and wellness care and medical treatment for children and adults. Also licensed as a Primary Care Professional. Nurse Practitioner, NP, Primary Care Nurse."
+  },
+  {
+  "title": "Family Practice",
+  "definition": "General medical and wellness care for children and adults. Family doctor, Primary Care Physician."
+  },
+  {
+  "title": "Fertility/Infertility Medicine",
+  "definition": "Treatment and therapies for men and women who have trouble getting pregnant. Surgical subspecialty of Obstetrics and Gynecology. Reproductive endocrinology and infertility."
+  },
+  {
+  "title": "Foot and Ankle Surgery",
+  "definition": "Surgical treatment for injuries, disabilities, disorders and diseases that affect the feet and/or ankles. Specialists are usually podiatrists or orthopedic surgeons. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Gastroenterology",
+  "definition": "Disorders and diseases of colon, stomach (belly), intestines, gastrointestinal tract, including colon cancer, Crohn's Disease, endoscopy exams, etc. Colon doctor, GI doctor, Gastroenterologist."
+  },
+  {
+  "title": "General Practice",
+  "definition": "Doctors that provide general medical care and wellness care for children and adults, referrals to other specialists. General Practice Doctor, Family Doctor, Primary Care Physician. (PCP)."
+  },
+  {
+  "title": "General Surgery",
+  "definition": "Surgical specialty that focuses on major body organs, including the intestines, esophagus or throat, stomach, small bowel, etc. General Surgeon."
+  },
+  {
+  "title": "Genetics",
+  "definition": "Medical study of how good and bad health factors, including diseases and illnesses, are inherited or passed through family bloodlines and generations.Geneticist, gene doctor."
+  },
+  {
+  "title": "Geriatric Medicine",
+  "definition": "Medical care and treatment for adults 65 and older, including old age related diseases, disorders and disabilities, like Alzheimer's, arthritis, balance problems, osteoporosis, senility, etc. Geriatric doctor, geriatrician, gerontologist."
+  },
+  {
+  "title": "Gerontological Nurse Practitioner",
+  "definition": "Registered Nurse (RN) with advanced education and training who provides care and treatment to the elderly, promotes health and wellness, manages constant health problems and offers support for family and other caregivers. Geriatric nurse practitioner, GNP."
+  },
+  {
+  "title": "Gynecologic Oncology",
+  "definition": "Diagnosis and treatment for cancer in women's reproductive organs, including ovarian cancer, uterine cancer, endometriosis, etc. Gynecologic oncologist, ovarian cancer doctor, uterine cancer doctor."
+  },
+  {
+  "title": "Gynecology (no Obstetrics (OB))",
+  "definition": "Medical treatment and wellness care for women's reproductive and sexual health, including pap smears, birth control, HPV (human papillomavirus), menopause and STD (sexually transmitted diseases) exams, etc. Gynecologist, female health doctor, Primary Care Physician. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "HIV/AIDS Specialist",
+  "definition": "Doctor with extra training and certification in providing care and treatment to patients infected with HIV and/or AIDs."
+  },
+  {
+  "title": "Hand Surgery",
+  "definition": "Surgical specialty for diseases and injuries related to the hands, wrist and forearm. Includes tendon repair, trigger finger, carpal tunnel syndrome, etc."
+  },
+  {
+  "title": "Head and Neck Surgery",
+  "definition": "Surgical treatment for diseases, disorders and injuries to ear, nose, throat, head and neck. Also otolaryngology or ENT (ear, nose, and throat)."
+  },
+  {
+  "title": "Hearing Instrument Specialist",
+  "definition": "Hearing doctors, or audiologists, licensed or trained to fit hearing aids and devices for hearing loss."
+  },
+  {
+  "title": "Heart Surgery (Cardiovascular)",
+  "definition": "Use of surgical procedures to fix heart problems; heart surgery. Cardiac surgeon."
+  },
+  {
+  "title": "Hematology",
+  "definition": "Medical doctors who diagnose and treat blood diseases and disorders, including leukemia, anemia, Hodgkin's lymphoma, etc. Hematologist, blood doctor."
+  },
+  {
+  "title": "Hepatology",
+  "definition": "Doctors who treat liver and pancreas diseases and disorders, including hepatitis, cirrhosis, liver cancer, pancreatitis, etc. Hepatologist, liver doctor."
+  },
+  {
+  "title": "Home Health Aide",
+  "definition": "Provides basic in-home care and services, including help with bathing, dressing, getting into and out of bed, dressing changes, etc."
+  },
+  {
+  "title": "Hospice and Palliative Care",
+  "definition": "Nurses and other health care specialists who are trained to provide comfort care to patients with terminal diseases who are near the end of their lives, including support and guidance for families and loved ones."
+  },
+  {
+  "title": "Hyperbaric and Undersea Medicine",
+  "definition": "Medical specialty for the treatment and diagnosis of scuba-diving related illnesses. Includes use of hyperbaric chambers. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Immunology",
+  "definition": "Study of immune systems (chemicals and cells that help fight disease) and the diseases that affect them. Immunologist."
+  },
+  {
+  "title": "Immunopathology",
+  "definition": "Study of the effects of disease and illness on the body's immune system (chemicals and cells that help fight disease). Immunopathologist."
+  },
+  {
+  "title": "Infectious Disease",
+  "definition": "Identification, diagnosis and treatment for contagious diseases, or those that are easily passed from person to person. Infectious disease doctor."
+  },
+  {
+  "title": "Infertility/Fertility Medicine",
+  "definition": "Treatment and therapies for men and women who have trouble getting pregnant. Surgical subspecialty of Obstetrics and Gynecology. Reproductive endocrinology and infertility."
+  },
+  {
+  "title": "Internal Medicine",
+  "definition": "General health and wellness care for adults. Internist, Internal Med doctor, Primary Care Physician (PCP). Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Licensed Practical Nurse (LPN)",
+  "definition": "Nurse who provides basic patient care under the supervision of Registered Nurses (RNs), doctors and other health care professionals. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Massage Therapy",
+  "definition": "Therapeutic rubbing of muscles in the various parts of the body to ease injuries, pain, stress, etc. Massage as it relates to health and wellness."
+  },
+  {
+  "title": "Maternal and Fetal Medicine",
+  "definition": "Medical care and treatment for women with high-risk pregnancies. Includes special tests and monitoring."
+  },
+  {
+  "title": "Medical Biochemical Genetics",
+  "definition": "The study of the chemicals in our genes or DNA. Used to help doctors identify inherited or genetic illnesses."
+  },
+  {
+  "title": "Medical Toxicology",
+  "definition": "Medical subspecialty for the diagnosis, care and treatment of patients with poisoning; study of the medical effect of dangerous chemicals on human health."
+  },
+  {
+  "title": "Midwife",
+  "definition": "An advanced nurse or health care professional with extra training and education who provides treatment and care for women during pregnancy, childbirth and post childbirth."
+  },
+  {
+  "title": "Multispecialty Group",
+  "definition": "A group of doctors who specialize in different areas of medicine and work together to provide patients with one-stop-shop medical care. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Naprapathic Medicine",
+  "definition": "Treatment for pain by moving or manipulating the muscles, bones and joints; closely related to chiropractic. Alternative medicine specialty."
+  },
+  {
+  "title": "Naturopathic Medicine",
+  "definition": "Use of the body's natural energy to help it heal, along with non-invasive treatments; alternative medicine specialty. Osteopath."
+  },
+  {
+  "title": "Neonatal - Perinatal Medicine",
+  "definition": "Medical care for both mother and baby during pregnancy and after childbirth."
+  },
+  {
+  "title": "Neonatal Nurse Practitioner",
+  "definition": "Registered Nurse (RN) with advanced education and specialized training who provides care and treatment to newborn infants and premature infants, especially those with health risks."
+  },
+  {
+  "title": "Nephrology",
+  "definition": "Care and treatment of kidney illnesses. Nephrologist."
+  },
+  {
+  "title": "Neurodevelopmental Disabilities",
+  "definition": "Medical specialty for treating and identifying learning problems due to brain or central nervous system disorders such as autism, cerebral palsy, Down syndrome, etc."
+  },
+  {
+  "title": "Neurology",
+  "definition": "Diagnosis, treatment and surgery for brain and nervous system diseases, conditions and problems, including Alzheimer's, epilepsy, autism, stroke, etc. Brain doctor, brain surgeon, Neurologist, Neurosurgeon."
+  },
+  {
+  "title": "Neuromuscular Medicine",
+  "definition": "Medical diagnosis and treatment for nerve and muscle diseases and illnesses."
+  },
+  {
+  "title": "Neuromusculoskeletal Medicine",
+  "definition": "Diagnosis and therapy for the muscles and bones. Could include manual adjustment, massage and other alternative therapies. A type of alternative medicine."
+  },
+  {
+  "title": "Neuropathology",
+  "definition": "Study of how disease affects the nervous system. Uses biopsy tests -- cutting out and looking at a tiny piece of tissue under a microscope for diagnosis and help in planning treatment."
+  },
+  {
+  "title": "Neuroradiology",
+  "definition": "Use of X-ray and other imaging technologies to detect, diagnose and treat nervous system diseases, disorders and problems."
+  },
+  {
+  "title": "Neurosurgery",
+  "definition": "Surgical treatment for problems that affect any portion of the nervous system including the brain, spine (back bone) and nerves near the spine. Neurosurgery."
+  },
+  {
+  "title": "Neurotology",
+  "definition": "Nerve problems of the ear. Otology."
+  },
+  {
+  "title": "Nuclear Cardiology",
+  "definition": "Use of radioactive dye injected into the heart and arteries to help detect heart diseases, disorders and possible risks for heart problems."
+  },
+  {
+  "title": "Nuclear Medicine",
+  "definition": "Use of radioactive elements injected into the body to find and treat disease."
+  },
+  {
+  "title": "Nuclear Radiology",
+  "definition": "Use of radioactive materials to produce images of body organs to help doctors diagnose and plan treatment for complex illnesses and diseases. Nuclear Medicine."
+  },
+  {
+  "title": "Nurse Practitioner",
+  "definition": "Registered Nurse (RN) with advanced education and training who provides care and treatment for various types of patients, possibly as a Primary Care Professional"
+  },
+  {
+  "title": "Nurse Anesthetist, Certified RN",
+  "definition": "Registered Nurse (RN) with advanced education and training who gives drugs, medications and gases (anesthesia) to patients before and during surgery for pain-free procedures."
+  },
+  {
+  "title": "Nutrition",
+  "definition": "Advice and support on good food or healthy diet as it relates to health and wellness, including special diet recommendations for certain medical conditions.Nutritionist. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Obstetrics (no Gynecology)",
+  "definition": "Medical care and treatment for women during pregnancy, childbirth and delivery. Obstetrician."
+  },
+  {
+  "title": "Obstetrics and Gynecology",
+  "definition": "Care, treatment and wellness care for pregnancy, as well as women's reproductive and sexual health, pre-natal care, delivery, pap smears, birth control, HPV (human papillomavirus), menopause and STD (sexually transmitted diseases) vaccines and screenings, etc. OB-GYN, female health doctor, Primary Care Physician."
+  },
+  {
+  "title": "Occupational Medicine",
+  "definition": "Preventive medicine and treatment for diseases and injuries that happen in the workplace."
+  },
+  {
+  "title": "Occupational Therapy",
+  "definition": "The use of productive or creative activity as part of the treatment for physically or emotionally disabled people. The primary goal of occupational therapy is to help people to take part in the activities of everyday life."
+  },
+  {
+  "title": "Oncology",
+  "definition": "Diagnosis, care and treatment for types of cancer. Cancer medicine."
+  },
+  {
+  "title": "Ophthalmology",
+  "definition": "Diagnosis, treatment and surgery for eye diseases and disorders, including vision exams, macular degeneration (age-related vision loss), cataract, etc. An ophthalmologist is a medical doctor. Ophthalmologist, eye surgeon."
+  },
+  {
+  "title": "Optometry",
+  "definition": "Eye and vision care. Includes general vision exams, treatment for eye-related disorders, retail vision materials, eye glass frames, lenses and contact lenses. An optometrist is a licensed health professional but not a medical doctor."
+  },
+  {
+  "title": "Oral and Maxillofacial Surgery",
+  "definition": "Dental surgery. Surgery for problems with the mouth, jaws, face and skull. Oral and maxillofacial surgeons, plastic surgeons."
+  },
+  {
+  "title": "Orthopedic Sports Medicine",
+  "definition": "Combined sports medicine and orthopedic doctor specialties. Includes treatment, surgery and rehabilitation for sports related injuries, surgeries and other problems, specifically those related to bones and joints."
+  },
+  {
+  "title": "Orthopedic Surgery",
+  "definition": "Muscle and bone surgery. Surgical treatment for sports injuries, arthritis, bone infections, tumors, joint replacements, etc. Includes knee arthroscopy, carpal tunnel release, knee and hip replacements. Orthopedic surgeon."
+  },
+  {
+  "title": "Orthopedic Technology",
+  "definition": "Health care professionals trained to apply casts, braces, splints and artificial limbs as part of an orthopedic medical team."
+  },
+  {
+  "title": "Orthopedic Trauma",
+  "definition": "Medical treatment, care and/or surgery for sudden and severe injuries to bones and joints."
+  },
+  {
+  "title": "Orthotics and Prosthetics",
+  "definition": "Artificial body parts such as hands and legs (prosthetics), braces, slings and supports for parts of the body (orthotics) for healing, pain relief, physical movement, etc."
+  },
+  {
+  "title": "Osteopathic Manipulative Medicine",
+  "definition": "Care and treatment for pain and disease using manual movement or adjustment of the spine and skeleton. An alternative medicine specialty."
+  },
+  {
+  "title": "Otolaryngology (Ear, Nose and Throat)",
+  "definition": "Diagnosis, care and treatment for disorders, diseases and problems related to the ears, nose and throat. ENT. Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Pain Management",
+  "definition": "Medical care that reduces or eliminates pain by using the right doses or combinations of drugs to eliminate or ease pain."
+  },
+  {
+  "title": "Pathology",
+  "definition": "Study of diseases and their causes. May include testing of body fluids and tissues to identify patients' diseases."
+  },
+  {
+  "title": "Pathology, Anatomic",
+  "definition": "Identification of disease using various small samples taken from bone and body organs. Used to help doctors plan treatment or diagnose death in the case of autopsy."
+  },
+  {
+  "title": "Pathology, Anatomic and Clinical",
+  "definition": "Identification of disease and illnesses using either small samples taken from bone and body organs (anatomic) or from tissue, blood and other body fluids (clinical)."
+  },
+  {
+  "title": "Pathology, Chemical",
+  "definition": "Identification of disease using chemical methods. Includes blood tests and searches for signs of tumors."
+  },
+  {
+  "title": "Pathology, Clinical",
+  "definition": "Identification of disease and illnesses using samples of blood and other body fluids."
+  },
+  {
+  "title": "Pathology, Forensic",
+  "definition": "Use of diagnostic and laboratory tools like those common to pathologists, to help solve crimes and identify causes of death."
+  },
+  {
+  "title": "Pathology, Medical Microbiology",
+  "definition": "Diagnosis, treatment, and control of infectious diseases (those easily passed from person to person)."
+  },
+  {
+  "title": "Pathology, Molecular Genetic",
+  "definition": "Study of diseases associated with genetic changes."
+  },
+  {
+  "title": "Pathology, Oral",
+  "definition": "Study of diseases of the mouth, gums and teeth."
+  },
+  {
+  "title": "Pathology, Pediatric",
+  "definition": "Study of the causes of diseases in children."
+  },
+  {
+  "title": "Pathology, Radioisotopic",
+  "definition": "Use of radioactive substances to study diseases in tissue and body fluids."
+  },
+  {
+  "title": "Pediatric",
+  "definition": "Medical care and treatment for children from early childhood through teen years, including preventive care, vaccinations and immunizations and care for childhood diseases, illnesses and related problems. Primary care."
+  },
+  {
+  "title": "Pediatric Allergy & Immunology",
+  "definition": "Treatment, care and study of allergies and immune system disorders that affect infants and children; doctors that treat allergic reactions in children."
+  },
+  {
+  "title": "Pediatric Cardiology",
+  "definition": "The treatment and care of conditions that affect the heart and major blood vessels for pediatric patients--children. Heart doctors for children."
+  },
+  {
+  "title": "Pediatric Critical Care Medicine",
+  "definition": "Care for children who have a serious injury or illness. Doctors use medicine and equipment designed for the size of children or infants. Pediatric intensive care unit (PICU)."
+  },
+  {
+  "title": "Pediatric Dentistry",
+  "definition": "General dental care for children and teens."
+  },
+  {
+  "title": "Pediatric Dermatology",
+  "definition": "Diagnosis, care and treatment for children's skin problems."
+  },
+  {
+  "title": "Pediatric Developmental Behavioral",
+  "definition": "Diagnosis, care and treatment for children with developmental delays (brain related) or physical and/or mental disabilities or problems with emotional development/growth, learning or behavior."
+  },
+  {
+  "title": "Pediatric ENT (Ear, Nose and Throat)",
+  "definition": "Diagnosis, care and treatment for children's disorders, diseases and problems related to the ears, nose and throat. Pediatric otolaryngology."
+  },
+  {
+  "title": "Pediatric Emergency Medicine",
+  "definition": "Emergency or immediate care and treatment for children's sickness, injuries, accidents and medical problems that require immediate attention."
+  },
+  {
+  "title": "Pediatric Endocrinology",
+  "definition": "Medical care and treatment for children with problems with related to their endocrine system, or glands. Includes diabetes and growth disorders."
+  },
+  {
+  "title": "Pediatric Gastroenterology",
+  "definition": "Medical care for children with diseases of the digestive system, such as acid reflux."
+  },
+  {
+  "title": "Pediatric Hematology/Oncology",
+  "definition": "Medical care for children with cancer or blood diseases, such as leukemia (blood cell cancer)."
+  },
+  {
+  "title": "Pediatric Immunology",
+  "definition": "Study of children's immune systems (chemicals and cells that help fight disease) and the diseases that affect them. Immunologist."
+  },
+  {
+  "title": "Pediatric Infectious Disease",
+  "definition": "Identification, diagnosis and treatment for contagious diseases in children, or those that are easily passed from child to child. Infectious disease doctor."
+  },
+  {
+  "title": "Pediatric Medical Toxicology",
+  "definition": "Treatment for children following poisoning. Children may eat chemicals or toxic materials found in the home and get accidentally poisoned."
+  },
+  {
+  "title": "Pediatric Nephrology",
+  "definition": "Medical care for children with kidney illnesses. Includes urinary tract disease and bladder problems."
+  },
+  {
+  "title": "Pediatric Neurology",
+  "definition": "Medical care for children with illnesses related to the brain or nerves. Includes cerebral palsy, seizures, etc."
+  },
+  {
+  "title": "Pediatric Nurse Practitioner",
+  "definition": "Advanced Registered Nurse (RN) with higher education and specialized training who provides health and wellness care and medical treatment to children from infancy through teenage years."
+  },
+  {
+  "title": "Pediatric Nurse Practitioner - Primary Care",
+  "definition": "Advanced Registered Nurse (RN) with higher education and specialized training who provides health and wellness care and medical treatment to children from infancy through teenage years. Licensed as a Primary Care Professional."
+  },
+  {
+  "title": "Pediatric Otolaryngology (Ear, Nose and Throat)",
+  "definition": "Diagnosis, care and treatment for children's disorders, diseases and problems related to the ears, nose and throat."
+  },
+  {
+  "title": "Pediatric Pulmonology",
+  "definition": "Treatment for children with lung disease, asthma and other respiratory (breathing) diseases. Lung doctor."
+  },
+  {
+  "title": "Pediatric Radiology",
+  "definition": "Use of X-ray and other body imaging procedures to help doctors identify and plan treatment for injuries and various children's health problems. Use of X-rays, ultrasound (high frequency sound waves), Magnetic Resonance Imaging (MRI), etc."
+  },
+  {
+  "title": "Pediatric Rehabilitation Medicine",
+  "definition": "Management of children's physical and mental disabilities."
+  },
+  {
+  "title": "Pediatric Rheumatology",
+  "definition": "Treatment for childhood arthritis including diseases and conditions that affect joints, bones and muscles. Rheumatoid arthritis."
+  },
+  {
+  "title": "Pediatric Surgery",
+  "definition": "Doctors who have special training to operate on children. Size of surgical equipment and other factors differ from adult surgery."
+  },
+  {
+  "title": "Pediatric Transplant",
+  "definition": "Organ transplant (heart, lung, kidney, liver, etc.) for children."
+  },
+  {
+  "title": "Pediatric Transplant Hepatology",
+  "definition": "Liver transplant for children."
+  },
+  {
+  "title": "Pediatric Urology",
+  "definition": "Treatment of urologic (unination) disorders in children. This may include cryptorchism (undescended testes), abnormalities of the urinary tract, enuresis (bed wetting)."
+  },
+  {
+  "title": "Perfusion",
+  "definition": "Management of injected fluids into the blood stream to supply nutrients and oxygen to organs and tissues. A method of drug delivery to a cancer. Used in chemotherapy, or cancer drugs."
+  },
+  {
+  "title": "Pharmacology, Clinical",
+  "definition": "The study of how drugs and medications affect the body and how they may be used to treat medical diseases and conditions."
+  },
+  {
+  "title": "Physical Medicine",
+  "definition": "Diagnosis and treatment of disease and injury using physical rehabilitation therapies. May use manipulation, massage, exercise, heat, or water. Includes treatment for amputation, spinal cord injury, sports injury, stroke, low back pain, etc."
+  },
+  {
+  "title": "Physical Therapy",
+  "definition": "Non-drug therapy for injuries, disabilities, and surgical recovery, including exercise and conditioning, strength and coordination, fall prevention, use of mechanical devices (walkers, crutches) to help with daily living, etc. PT, physical therapist."
+  },
+  {
+  "title": "Physician Assistant",
+  "definition": "A trained health care professional who works under the supervision of a medical doctor (M.D.) Provides care and treatment for many common illnesses, as well as general health exams, etc."
+  },
+  {
+  "title": "Plastic Surgery",
+  "definition": "Surgery to remodel, repair, or restore body parts due to injury, disease or cosmetic reasons. Uses skin and tissue from other parts of the body. Rhinoplasty. Plastic surgeon."
+  },
+  {
+  "title": "Podiatry",
+  "definition": "Diagnosis, care, treatment and surgery for foot, ankle and lower leg problems. Includes general foot health, as well as pain, bone and joint problems, diabetes related problems and foot problems associated with old age. Podiatrist, Doctor of Podiatric Medicine (DPM)."
+  },
+  {
+  "title": "Preventive Medicine/Public Health",
+  "definition": "A branch of medicine that studies the health of the general public to try to prevent or detect disease in the population."
+  },
+  {
+  "title": "Proctology",
+  "definition": "Diagnosis, care and treatment of illnesses and diseases that affect the colon, rectum and anus. Proctologist."
+  },
+  {
+  "title": "Psychiatry",
+  "definition": "Mental health and substance abuse treatment, including therapy, diagnosis and medication when necessary. A medical specialty. Psychiatrist."
+  },
+  {
+  "title": "Psychiatry, Child and Adolescent",
+  "definition": "Medical treatment for children with mental, emotional, or behavioral disorders. May use medicine, drugs and/or talktherapy."
+  },
+  {
+  "title": "Psychiatry, Forensic",
+  "definition": "Mental, emotionalandbehavioralhealthevaluationofcriminals.Usedtodetermineifapersonismentallyfittostandtrialforacrime."
+  },
+  {
+  "title": "Psychiatry, Geriatric",
+  "definition": "Mental, emotionalandbehavioralhealthtreatmentforolderadults(age65andolder).Includestherapy, diagnosisandmedicationwhennecessary.Amedicalspecialty."
+  },
+  {
+  "title": "Psychoanalysis",
+  "definition": "Talktherapyusedtotreatmentalandemotionaldisorders.Performedone-on-onewithapatientasopposedtoagroupsetting."
+  },
+  {
+  "title": "Psychology",
+  "definition": "Emotionalandbehavioralcounselingforalltypesofpatients.Apsychologistisnotamedicaldoctor..Tip: Ifyoustillcan'tfindwhatyou'relookingfor, thehealthcareprofessionalcouldbeout-of-network.Learnmoreabouthealthcareprofessionalswhodon'tparticipateintheCignanetwork."
+  },
+  {
+  "title": "Psychology, Child",
+  "definition": "Emotionalandbehavioralcounselingforchildren.Apsychologistisnotamedicaldoctor."
+  },
+  {
+  "title": "Psychology, Neurological",
+  "definition": "Therapyandtreatmentforemotional, mentalandbehavioralproblemsthatmaybeaffectedbybrainfunction."
+  },
+  {
+  "title": "Pulmonology/PulmonaryDisease",
+  "definition": "Diagnosis, careandtreatmentforlung, breathingandrespiratorydiseasessuchasCOPD(chronicobstructivepulmonarydisease), asthma, emphysema, etc.Pulmonologist.Tip: Ifyoustillcan'tfindwhatyou'relookingfor, thehealthcareprofessionalcouldbeout-of-network.Learnmoreabouthealthcareprofessionalswhodon'tparticipateintheCignanetwork."
+  },
+  {
+  "title": "Radiation Oncology",
+  "definition": "The use of high-energy rays to damage cancer cells and stop them from growing and dividing. Radiation Oncologist."
+  },
+  {
+  "title": "Radiation Therapy",
+  "definition": "The use of radioactive substances to treat disease. Cancer therapy."
+  },
+  {
+  "title": "Radiological Physics",
+  "definition": "A branch of physics related to the science and technology of medical imaging and the treatment of disease and illness using radiation and radioactive materials."
+  },
+  {
+  "title": "Radiology",
+  "definition": "The use of X-rays or radioactive material to diagnose and treat disease. Radiologist."
+  },
+  {
+  "title": "Radiology, Diagnostic",
+  "definition": "Use of X-rays and other types of radiological images to diagnose and treat diseases, injuries and illnesses. Includes X-rays, MRIs, CT/CAT scans, etc."
+  },
+  {
+  "title": "Radiology, Nuclear",
+  "definition": "Use of radioactive materials to produce images of body organs to help doctors diagnose and plan treatment for complex illnesses and diseases. Nuclear Medicine."
+  },
+  {
+  "title": "Registered Dietician",
+  "definition": "Specialist or nutrition professional licensed by the American Dietetic Association to provide nutrition, diet care and guidance as it relates to health and wellness, disease management, etc."
+  },
+  {
+  "title": "Registered Nurse (RN)",
+  "definition": "Nurse who works in a variety of health care environments, including hospitals, doctors offices, clinics, emergency departments, nursing homes, etc. Provides care for all types of patients and medical conditions."
+  },
+  {
+  "title": "Reproductive Endocrinology/Infertility",
+  "definition": "Treatment and therapies for men and women who have trouble getting pregnant. Surgical subspecialty of Obstetrics and Gynecology."
+  },
+  {
+  "title": "Respiratory Therapy",
+  "definition": "Medical treatment for breathing problems. This may include chronic lung problems, such as asthma, bronchitis, emphysema, and chronic obstructive pulmonary disease (COPD). Respiratory therapist."
+  },
+  {
+  "title": "Rheumatology",
+  "definition": "Medical treatment for conditions and diseases affecting joints, muscles, and bones, including rheumatoid arthritis. Rheumatologist."
+  },
+  {
+  "title": "Sleep Medicine",
+  "definition": "Medical study of sleep and its effect on health. Includes diagnosis and treatment for sleep problems such as sleep apnea, insomnia and narcolepsy."
+  },
+  {
+  "title": "Social Work",
+  "definition": "Support for people coping with family, work and other types of problems. Social worker."
+  },
+  {
+  "title": "Speech Therapy",
+  "definition": "Diagnosis, treatment or therapy for speech problems, including stuttering, stammering, etc. Includes speech affected by deafness and/or brain damage, or loss of speech due to illness or injury. Speech therapist."
+  },
+  {
+  "title": "Spinal Cord Injury Medicine",
+  "definition": "Medical diagnosis, treatments and surgery for spinal cord injuries, including permanent disability or loss of movement (paralysis) and sensation. Neurologist."
+  },
+  {
+  "title": "Sports Medicine",
+  "definition": "Therapy and treatment for injuries or illnesses resulting from playing sports. Orthopedist."
+  },
+  {
+  "title": "Surgery, Cardiovascular",
+  "definition": "Use of surgical procedures to fix heart problems; heart surgery. Cardiac surgeon."
+  },
+  {
+  "title": "Surgery, Colon and Rectal",
+  "definition": "Use of surgical procedures to fix damage to colon, large intestine (bowel), rectum, etc. due to disease, illness or injury. Includes treatment for colon cancer, Crohn's disease, colitis, etc."
+  },
+  {
+  "title": "Surgery, General",
+  "definition": "Surgical specialty that focuses on major body organs, including the intestines, esophagus or throat, stomach, small bowel, etc. General Surgeon."
+  },
+  {
+  "title": "Surgery, Hand",
+  "definition": "Surgical specialty for diseases and injuries related to the hands, wrist and forearm. Includes tendon repair, trigger finger, carpal tunnel syndrome, etc."
+  },
+  {
+  "title": "Surgery, Head and Neck",
+  "definition": "Surgical treatment for diseases, disorders and injuries to ear, nose, throat, head and neck. Also otolaryngology or ENT (ear, nose, and throat)."
+  },
+  {
+  "title": "Surgery, Neurological",
+  "definition": "Surgical treatment for problems that affect any portion of the nervous system including the brain, spine (back bone) and nerves near the spine. Neurosurgery."
+  },
+  {
+  "title": "Surgery, Oral and Maxillofacial",
+  "definition": "Dental surgery. Surgery for problems with the mouth, jaws, face and skull. Oral and maxillofacial surgeons, plastic surgeons."
+  },
+  {
+  "title": "Surgery, Orthopedic",
+  "definition": "Muscle and bone surgery. Surgical treatment for sports injuries, arthritis, bone infections, tumors, joint replacements, etc. Includes knee arthroscopy, carpal tunnel release, knee and hip replacements. Orthopedic surgeon."
+  },
+  {
+  "title": "Surgery, Plastic",
+  "definition": "Surgery to remodel, repair, or restore body parts due to injury, disease or cosmetic reasons. Uses skin and tissue from other parts of the body. Rhinoplasty. Plastic surgeon."
+  },
+  {
+  "title": "Surgery, Thoracic",
+  "definition": "Surgical treatment and medical diagnosis for diseases and disorders of heart, lungs, chest wall, diaphragm, etc. Thoracic surgeon."
+  },
+  {
+  "title": "Surgery, Vascular",
+  "definition": "Surgical treatments and procedures for blood veins, vessels and arteries. Includes catheter procedures (use of a thin tube that helps doctors perform various procedures and tests). Vascular surgeon."
+  },
+  {
+  "title": "Surgical Critical Care",
+  "definition": "Surgical care, treatment and support - before surgery and after-for patients with very serious medical conditions. Includes care in an ICU (Intensive Care Unit)."
+  },
+  {
+  "title": "Therapist/Counselor",
+  "definition": "Provides counseling, support and\"talktherapy\" to individuals or groups."
+  },
+  {
+  "title": "ThoracicSurgery",
+  "definition": "Surgical treatment and medical diagnosis for diseases and disorders of heart, lungs, chest wall, diaphragm, etc. Thoracic surgeon."
+  },
+  {
+  "title": "Transplant Hepatology",
+  "definition": "Treatment and care for liver transplant patients."
+  },
+  {
+  "title": "Undersea Medicine",
+  "definition": "Treatment of people, (divers) injured by gas pressure build up in the body from high water pressure of a deep dive. Hyperbaric chamber may be used to increase oxygen flow in tissues. Diving medicine, undersea and hyperbaric medicine. (UHB)."
+  },
+  {
+  "title": "Urology",
+  "definition": "Medical care, diagnosis and treatment for diseases, illnesses and problems related to men's and women's urinary tract. Includes men's sexual health.Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Vascular and Interventional Radiology",
+  "definition": "Use of X-ray imaging and catheters (small narrow tubes that delicate instruments can pass through) as a way to guide small medical instruments during procedures for diagnosis or treatment. Includes angioplasty. Interventional radiologist."
+  },
+  {
+  "title": "Vascular Surgery",
+  "definition": "Surgical treatments and procedures for blood veins, vessels and arteries. Includes catheter procedures (use of a thin tube that helps doctors perform various procedures and tests). Vascular surgeon.Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  },
+  {
+  "title": "Women's Health Nurse Practitioner",
+  "definition": "Advanced Registered Nurse (RN) with higher education and training in women's health issues. Provides diagnosis, care and treatment for general health and wellness as well as serious diseases and conditions.Tip: If you still can't find what you're looking for, the health care professional could be out-of-network. Learn more about health care professionals who don't participate in the Cigna network."
+  }
+  ]
